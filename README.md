@@ -26,11 +26,11 @@
 
  - <summary><b> NTSC Video Modes (VRR Capable Display)</b></summary>
 
-|Primary Modelines (256x224)|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|Primary Modelines (320x224)|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
-**`fill`** | [**genesis**] | **fill**| **fill** | **fill** | **fill** | **fill**
-**`fill`** | [**genesis**] | **fill**| **fill** | **fill** | **fill** | **fill**
-**`fill`** | [**genesis**] | **fill**| **fill** | **fill** | **fill** | **fill**
+**`fill`** | [**genesis**] | **320x224**| **1280x896** | **4x** | **896p** | **1280 (4x)**
+**`fill`** | [**genesis**] | **320x224**| **1600x1120** | **5x** | **1120p** | **1600 (5x)**
+**`fill`** | [**genesis**] | **320x224**| **1920x1344** | **6x** | **1344p** | **1920 (6x)**
 
 ## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
 
