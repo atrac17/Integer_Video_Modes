@@ -107,6 +107,102 @@ W.I.P
  
 </details>
 
+
+## Integer-Step Scaled Custom Video Modelines
+
+<details>
+
+ <summary><b>Arcade Core Video Modes</b></summary>
+
+## <summary1><b>5:4 LCD/TFT/IPS Displays Only</b></summary1>
+   
+- Designed for `5:4 Aspect Ratio` displays with a native resolution of `1280x1024`. Not to be used with common VGA CRT displays with a native resolution of `1280x1024`.
+
+## <summary1><b>MiSTer.ini Information</b></summary1>
+   
+- The default resolution for the `MiSTer.ini` should always be **720p**. This can be set by adjusting `video_mode=` to `0`.
+- Unless stated below, the default `MiSTer.ini` settings for each core will be `vscale_mode=1` and `vsync_adjust=2`.
+
+## <summary1><b> Capcom CP System Cores</b></summary1>
+
+<blockquote>
+
+- <summary><b> Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**
+
+- <summary><b> VRR Capable Display Modes</b></summary>
+
+|Primary Modeline NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
+|--|--|--|--|--|--|--|--|
+**`video_mode=1248,48,32,80,1008,3,10,16,87606`** | [**jtcps1**] [**jtcps15**] [**jtcps2**] | **384x224**| **1248x1008** | **4.5x** | **1008p** | **1248 (3.25x)** | **3**
+
+</blockquote>
+
+</details>
+
+<details>
+
+ <summary><b>Console Core Video Modes</b></summary>
+
+## <summary1><b>5:4 LCD/TFT/IPS Displays Only</b></summary1>
+   
+- Designed for `5:4 Aspect Ratio` displays with a native resolution of `1280x1024`. Not to be used with common VGA CRT displays with a native resolution of `1280x1024`.
+ 
+## <summary1><b>MiSTer.ini Information</b></summary1>
+   
+- The default resolution for the `MiSTer.ini` should always be **720p**. This can be set by adjusting `video_mode=` to `0`.
+- Unless stated below, the default `MiSTer.ini` settings for each core will be `vscale_mode=1` and `vsync_adjust=2`.
+
+## <summary1><b> Sega Mega Drive / Sega Genesis</b></summary1>
+
+<blockquote>
+
+- <summary><b> Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.71 MHz** | **59.922751013551 Hz NTSC** | **320x224**| **32:25** | **64:49**
+**5.37 MHz** | **59.922751013551 Hz NTSC** | **256x224**| **8:7** | **64:49**
+
+- <summary><b> VRR Capable Display Modes</b></summary>
+
+|Primary Modeline NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
+|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**genesis**] | **320x224**| **1280x1008** | **4.5x** | **1008p** | **1280 (4x)** | **2**
+
+|Secondary Modeline NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
+|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**genesis**] | **256x224**| **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2**
+
+</blockquote>
+
+## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
+
+<blockquote>
+ 
+- <summary><b> Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**5.37 MHz** | **60.098813897441 Hz NTSC** | **256x224 / 256x240**| **8:7** | **64:49**
+**10.47 MHz** | **60.098813897441 Hz NTSC** | **512x224 / 512x240**| **16:7** | **128:105**
+
+- <summary><b> VRR Capable Display Modes</b></summary>
+
+|Primary Modeline NTSC|FPGA Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
+|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**snes**] | **256x224**| **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2**
+
+|Secondary Modeline NTSC|FPGA Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
+|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,960,3,4,21,85363`** | [**snes**] | **256x240**| **1280x960** | **4x** | **960p** | **1280 (5x)** | **2**
+
+</blockquote>
+ 
+</details>
 ## Support
 
 Please consider showing support for this and future projects at [Patreon](https://www.patreon.com/atrac17). While it isn't necessary, it's greatly appreciated.
