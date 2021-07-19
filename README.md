@@ -21,16 +21,16 @@
 
 |Pixel Clock|Framerate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
-**fill** | **fill** | **fill**| **fill** | **fill**
-**fill** | **fill** | **fill**| **fill** | **fill**
+**5.37 MHz** | **59.922751013551 Hz NTSC** | **256x224**| **8:7** | **64:49**
+**6.71 MHz** | **59.922751013551 Hz NTSC** | **320x224**| **32:25** | **64:49**
 
  - <summary><b> NTSC Video Modes (VRR Capable Display)</b></summary>
 
 |Primary Modelines (320x224)|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
-**`fill`** | [**genesis**] | **320x224**| **1280x896** | **4x** | **896p** | **1280 (4x)**
-**`fill`** | [**genesis**] | **320x224**| **1600x1120** | **5x** | **1120p** | **1600 (5x)**
-**`fill`** | [**genesis**] | **320x224**| **1920x1344** | **6x** | **1344p** | **1920 (6x)**
+**`video_mode=1280,48,32,80,896,3,10,13,79661`** | [**genesis**] | **320x224**| **1280x896** | **4x** | **896p** | **1280 (4x)**
+**`video_mode=1600,48,32,80,1120,3,10,19,121651`** | [**genesis**] | **320x224**| **1600x1120** | **5x** | **1120p** | **1600 (5x)**
+**`video_mode=1920,48,32,80,1344,3,10,26,172598`** | [**genesis**] | **320x224**| **1920x1344** | **6x** | **1344p** | **1920 (6x)**
 
 ## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
 
@@ -38,8 +38,8 @@
 
 |Pixel Clock|Framerate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
-**5.37MHz** | **60.098813897441 Hz NTSC** | **256x224 / 256x240**| **8:7** | **64:49**
-**10.47MHz** | **60.098813897441 Hz NTSC** | **512x224 / 512x240**| **16:7** | **128:105**
+**5.37 MHz** | **60.098813897441 Hz NTSC** | **256x224 / 256x240**| **8:7** | **64:49**
+**10.47 MHz** | **60.098813897441 Hz NTSC** | **512x224 / 512x240**| **16:7** | **128:105**
 
  - <summary><b> NTSC Video Modes (VRR Capable Display)</b></summary>
 
