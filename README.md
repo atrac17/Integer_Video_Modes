@@ -1,10 +1,17 @@
 
 ## Modeline Template
 
-W.I.P
+This repository will contain custom resolutions for all available MiSTerFPGA cores currently available and in development. The custom `video_mode`'s available will be targeted towards displays that have variable refresh rate and unique resolution capabilities. Several displays support VRR and unique resolutions. You will find a list of known working displays below.
 
+The updater script in the repository will fetch the `MiSTer.ini` file the end-user configures in the script. They will have the ability to dictate it's name (`MiSTer_alt_1.ini` etc.). 
+
+Technical information regarding the video modes are below. Please ensure to throughly read if you are configuring your own `MiSTer.ini` file from this readme.
 
 ## Modeline Template Updater
+
+W.I.P
+
+## Known Working Displays
 
 W.I.P
 
@@ -203,6 +210,7 @@ W.I.P
 </blockquote>
  
 </details>
+
 ## Support
 
 Please consider showing support for this and future projects at [Patreon](https://www.patreon.com/atrac17). While it isn't necessary, it's greatly appreciated.
