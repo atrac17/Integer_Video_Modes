@@ -16,7 +16,7 @@ W.I.P
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
    
-- The default resoltion for the `MiSTer.ini` should always be **720p**. This can be set by adjusting `video_mode=` to `0`.
+- The default resolution for the `MiSTer.ini` should always be **720p**. This can be set by adjusting `video_mode=` to `0`.
 - Unless stated below, the default `MiSTer.ini` settings for each core will be `vscale_mode=1` and `vsync_adjust=2`.
 
 ## <summary1><b> Capcom CP System Cores</b></summary1>
@@ -48,7 +48,7 @@ W.I.P
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
    
-- The default resoltion for the `MiSTer.ini` should always be **720p**. This can be set by adjusting `video_mode=` to `0`.
+- The default resolution for the `MiSTer.ini` should always be **720p**. This can be set by adjusting `video_mode=` to `0`.
 - Unless stated below, the default `MiSTer.ini` settings for each core will be `vscale_mode=1` and `vsync_adjust=2`.
 
 ## <summary1><b> Sega Mega Drive / Sega Genesis</b></summary1>
