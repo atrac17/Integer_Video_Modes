@@ -1,7 +1,7 @@
 
 ## General Information
 
-This repository will contain custom resolutions for all available MiSTerFPGA cores currently available and in development. The custom **`video_mode`**'s available will be targeted towards displays that have variable refresh rate and unique resolution capabilities.
+This repository will contain custom resolutions for all available MiSTerFPGA cores currently available and in development. The custom **`video_mode`**(s) available will be targeted towards displays that have variable refresh rate and unique resolution capabilities.
 
 Several displays support VRR and unique resolutions. You will find a list of known working displays below. If your display is compatible and not listed, please inform me on github providing the information below in the template.
 
@@ -19,13 +19,15 @@ W.I.P
 
 <details>
 
- <summary><b>Arcade Core Video Modes <a href="https://www.github.com/jotego">(Jotego)</a></b></summary>
+<summary><b>Arcade Core Video Modes <a href="https://www.github.com/jotego">(Jotego)</a></b></summary>
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
    
 - The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
 
 - Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+
+----
 
 ## <summary1><b> Capcom CP System Cores</b></summary1>
 
@@ -47,11 +49,13 @@ W.I.P
 
 </blockquote>
 
+----
+
 </details>
 
 <details>
 
- <summary><b>Arcade Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
+<summary><b>Arcade Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
    
@@ -59,37 +63,72 @@ W.I.P
 
 - Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
 
+----
+
 ### W.I.P
+
+----
 
 </details>
 
+<details>
+
+<summary><b>Console Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
+
+## <summary1><b>MiSTer.ini Information</b></summary1>
+
+- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+
+- Below are the correct **`custom aspect ratio`**(s) for each console core. These will be available in the pre-configured **`MiSTer.ini`** file(s). The end user can download pre-configered **`.cfg`** files for each core. This will override any current custom settings. Please ensure to back up your **`.cfg`** files for each console core in **`/media/fat/cfg/`** and apply any setting you previously had.
+
+- If a core has **`Dual Mode=Yes`** below, then there will only be one **`primary video mode`** available as the **FPGA core** supports multiple systems. For aspect ratios, **`custom_aspect_ratio_1=`** will support the primary playable hardware and **`custom_aspect_ratio_2=`** will be for the secondary playable hardware. 
+
+---
+
+### <summary1><b>Console Core Custom Aspect Ratios:</b></summary1> 
+
+- Matching the **vertical resolution** to the modline will tell you which **custom aspect ratios** to utilize if you are configuring your own **`MiSTer.ini`** file.
+
+----
 
 <details>
 
- <summary><b>Console Core Video Modes</b></summary>
+<summary><b> Primary Custom Aspect Ratios</b></summary>
 
-## <summary1><b>MiSTer.ini Information</b></summary1>
-   
-- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+|Console|Core|Custom Aspect Ratio|Custom Aspect Ratio|Dual Mode|Resolution|
+|--|--|--|--|--|--|
+**Sega SG-1000** | [**coleco**] | **`custom_aspect_ratio_1=4:3`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**192p**_ |
+**Sega Mark III / Sega Master System** | [**sms**] | **`custom_aspect_ratio_1=4:3`**| **N/A** | **Yes** | _**192p**_ |
+**Sega Mega Drive / Sega Genesis** | [**genesis**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No** | _**224p**_ |
+**Sega Game Gear** | [**sms**] | **N/A**| **`custom_aspect_ratio_2=128:105`** | **Yes** | _**144p**_ |
+**Sega Mega CD / Sega CD** | [**megacd**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No** | _**224p**_ |
+**Famicom / Nintendo Entertainment System** | [**nes**] | **`custom_aspect_ratio_1=128:105`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**240p**_ |
+**Super Famicom / Super Nintendo** | [**snes**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**224p**_ |
 
-- Below are the correct **`custom aspect ratio`**'s for each console core. These will be available in the pre-configured **`MiSTer.ini`** file(s). The end user can download pre-configered **`.cfg`** files for each core. This will override any current custom settings. Please ensure to back up your **`.cfg`** files for each console core in **`/media/fat/cfg/`** and apply any setting you previously had.
+</details>
 
-- If a core has **`Dual Mode=Yes`** below, then there will only be one **`primary video mode`** available as the **FPGA core** supports multiple systems. For aspect ratio's, **`custom_aspect_ratio_1=`** will support the primary playable hardware and **`custom_aspect_ratio_2=`** will be for the secondary playable hardware. 
+<details>
 
-### <summary1><b>Console Core Custom Aspect Ratio(s):</b></summary1> 
+<summary><b> Secondary Custom Aspect Ratios</b></summary>
 
-|Console|Core|Custom Aspect Ratio|Custom Aspect Ratio|Dual Mode|
-|--|--|--|--|--|
-**Sega SG-1000** | [**coleco**] | **`custom_aspect_ratio_1=4:3`**| **`custom_aspect_ratio_2=8:7`** | **No**
-**Sega Mark III / Sega Master System** | [**sms**] | **`custom_aspect_ratio_1=4:3`**| **N/A** | **Yes**
-**Sega Mega Drive / Sega Genesis** | [**genesis**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No**
-**Sega Game Gear** | [**sms**] | **N/A**| **`custom_aspect_ratio_2=128:105`** | **Yes**
-**Sega Mega CD / Sega CD** | [**megacd**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No**
-**Super Famicom / Super Nintendo** | [**snes**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=8:7`** | **No**
+|Console|Core|Custom Aspect Ratio|Custom Aspect Ratio|Dual Mode|Resolution|
+|--|--|--|--|--|--|
+**Famicom / Nintendo Entertainment System** | [**nes**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**224p**_ |
+**Super Famicom / Super Nintendo** | [**snes**] | **`custom_aspect_ratio_1=128:105`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**240p**_ |
 
-### **Console Core Custom Video Mode(s):**
- 
-- Utilize the **`Primary Modelines`** for **`dual mode`** **console core's** listed below with the **custom aspect ratio's** provided above. If you compile your own console core(s), you can utilize Secondary Modelines as well. In the future, I will have a tutorial for compiling if a core supports more than one resolution or piece of hardware. 
+</details>
+
+----
+
+### **Console Core Custom Video Modes:**
+
+- Utilize the **`Primary Modelines`** for **`dual mode`** **console cores** listed below with the **custom aspect ratios** provided above. If you compile your own console core(s), you can utilize Secondary Modelines as well. In the future, I will have a tutorial for compiling if a core supports more than one resolution or piece of hardware. 
+
+----
+
+<details>
+
+_<summary><b>Sega Hardware</b></summary>_
 
 ## <summary1><b> Sega SG-1000</b></summary1>
 
@@ -133,7 +172,7 @@ W.I.P
 **`video_mode=1792,48,32,80,1344,3,4,32,161977`** | [**sms**] | **256x192**| **1792x1344** | **7x** | **1344p** | **1792 (7x)** | **No**
 
 </blockquote>
- 
+
 ## <summary1><b> Sega Mega Drive / Sega Genesis</b></summary1>
 
 <blockquote>
@@ -206,10 +245,47 @@ W.I.P
 
 </blockquote>
 
+----
+
+</details>
+
+<details>
+
+_<summary><b>Nintendo Hardware</b></summary>_
+
+## <summary1><b> Nintendo Famicom (Family Computer) / Nintendo NES (Nintendo Entertainment System)</b></summary1>
+
+<blockquote>
+
+- <summary><b> Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**5.37 MHz** | **60.098813897441 Hz NTSC** | **256x240**| **8:7** | **128:105**
+**5.37 MHz** | **60.098813897441 Hz NTSC** | **256x224**| **8:7** | **64:49**
+
+- <summary><b> VRR Capable Display Modes</b></summary>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,960,3,4,21,85363`** | [**nes**] | **256x240**| **1280x960** | **4x** | **960p** | **1280 (5x)**
+**`video_mode=1536,48,32,80,1200,3,10,22,125674`** | [**nes**] | **256x240**| **1536x1200** | **5x** | **1200p** | **1536 (6x)**
+**`video_mode=1792,48,32,80,1440,3,10,28,173455`** | [**nes**] | **256x240**| **1792x1440** | **6x** | **1440p** | **1792 (7x)**
+
+- _<b>Utilize the **`Secondary Modelines`** below if you enable **`Hide Overscan: Yes`** in the **`MiSTer OSD`** and **`Mask Edges: Auto`** in the **NES core**</b>._
+
+|Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,896,3,10,13,79661`** | [**nes**] | **256x224**| **1280x896** | **4x** | **896p** | **1280 (5x)**
+**`video_mode=1536,48,32,80,1120,3,10,19,117228`** | [**nes**] | **256x224**| **1536x1120** | **5x** | **1120p** | **1536 (6x)**
+**`video_mode=1792,48,32,80,1344,3,4,32,161977`** | [**nes**] | **256x224**| **1792x1344** | **6x** | **1344p** | **1792 (7x)**
+
+</blockquote>
+
 ## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
 
 <blockquote>
- 
+
 - <summary><b> Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
@@ -232,7 +308,13 @@ W.I.P
 **`video_mode=1792,48,32,80,1440,3,10,28,173455`** | [**snes**] | **256x240**| **1792x1440** | **6x** | **1440p** | **1792 (7x)** 
 
 </blockquote>
- 
+
+----
+
+</details>
+
+----
+
 </details>
 
 
@@ -240,14 +322,14 @@ W.I.P
 
 <details>
 
- <summary><b>Arcade Core Video Modes <a href="https://www.github.com/jotego">(Jotego)</a></b></summary>
+<summary><b>Arcade Core Video Modes <a href="https://www.github.com/jotego">(Jotego)</a></b></summary>
 
 ## <summary1><b>General Information</b></summary1>
-   
-- Designed for **5:4 IPS/LCD/TFT** displays with a native resolution of **1280x1024**. Do not use these **`video_mode`**'s with common **VGA CRT** monitors with the same native resolution..
+
+- Designed for **5:4 IPS/LCD/TFT** displays with a native resolution of **1280x1024**. Do not use these **`video_mode`**(s) with common **VGA CRT** monitors with the same native resolution.
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
-   
+
 - The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
 
 - Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
@@ -277,11 +359,11 @@ W.I.P
  <summary><b>Console Core Video Modes</b></summary>
 
 ## <summary1><b>General Information</b></summary1>
-   
-- Designed for **5:4 IPS/LCD/TFT** displays with a native resolution of **1280x1024**. Do not use these **`video_mode`**'s with common **VGA CRT** monitors with the same native resolution..
- 
+
+- Designed for **5:4 IPS/LCD/TFT** displays with a native resolution of **1280x1024**. Do not use these **`video_mode`**(s) with common **VGA CRT** monitors with the same native resolution.
+
 ## <summary1><b>MiSTer.ini Information</b></summary1>
-   
+
 - The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
 
 - Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
@@ -312,7 +394,7 @@ W.I.P
 ## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
 
 <blockquote>
- 
+
 - <summary><b> Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
@@ -331,11 +413,11 @@ W.I.P
 **`video_mode=1280,48,32,80,960,3,4,21,85363`** | [**snes**] | **256x240**| **1280x960** | **4x** | **960p** | **1280 (5x)** | **2**
 
 </blockquote>
- 
+
 </details>
 
 ## Support
 
-Please consider showing support for this and future projects at [Patreon](https://www.patreon.com/atrac17). While it isn't necessary, it's greatly appreciated.
+Please consider showing support for this and future projects at **[Patreon](https://www.patreon.com/atrac17)**. While it isn't necessary, it's greatly appreciated.
 
 ![123269746-440cb600-d4cd-11eb-9e11-90ed7fc951d7](https://user-images.githubusercontent.com/32810066/123511968-b529a600-d652-11eb-9cd5-ca45d16e81a5.png)
