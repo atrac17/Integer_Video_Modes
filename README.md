@@ -80,16 +80,38 @@ W.I.P
 
 |Console|Core|Custom Aspect Ratio|Custom Aspect Ratio|Dual Mode|
 |--|--|--|--|--|
+**Sega SG-1000** | [**coleco**] | **`custom_aspect_ratio_1=4:3`**| **`custom_aspect_ratio_2=8:7`** | **No**
 **Sega Mark III / Sega Master System** | [**sms**] | **`custom_aspect_ratio_1=4:3`**| **N/A** | **Yes**
 **Sega Mega Drive / Sega Genesis** | [**genesis**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No**
 **Sega Game Gear** | [**sms**] | **N/A**| **`custom_aspect_ratio_2=128:105`** | **Yes**
+**Sega Mega CD / Sega CD** | [**megacd**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No**
 **Super Famicom / Super Nintendo** | [**snes**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=8:7`** | **No**
 
 ### **Console Core Custom Video Mode(s):**
  
 - Utilize the **`Primary Modelines`** for **`dual mode`** **console core's** listed below with the **custom aspect ratio's** provided above. If you compile your own console core(s), you can utilize Secondary Modelines as well. In the future, I will have a tutorial for compiling if a core supports more than one resolution or piece of hardware. 
 
-## <summary1><b> Sega Mark III / Sega Master System</b></summary1>
+## <summary1><b> Sega SG-1000</b></summary1>
+
+<blockquote>
+
+- <summary><b> Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**5.37 MHz** | **59.922751013551 Hz NTSC** | **256x192**| **8:7** | **32:21**
+
+- <summary><b> VRR Capable Display Modes</b></summary>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,960,3,4,21,85363`** | [**coleco**] | **256x192**| **1280x960** | **5x** | **960p** | **1280 (5x)**
+**`video_mode=1536,48,32,80,1152,3,4,26,120586`** | [**coleco**] | **256x192**| **1536x1152** | **6x** | **1152p** | **1536 (6x)**
+**`video_mode=1792,48,32,80,1344,3,4,32,161977`** | [**coleco**] | **256x192**| **1792x1344** | **7x** | **1344p** | **1792 (7x)**
+
+</blockquote>
+
+## <summary1><b> Sega Mark III / Sega Master System (Sega SG-1000 Compatible)</b></summary1>
 
 <blockquote>
 
@@ -161,6 +183,26 @@ W.I.P
 **`video_mode=1280,48,32,80,1152,3,10,20,102384`** | [**sms**] | **160x144**| **1280x1152** | **8x** | **1152p** | **1280 (8x)** | **No**
 **`video_mode=1440,48,32,80,1296,3,10,24,127968`** | [**sms**] | **160x144**| **1440x1296** | **9x** | **1296p** | **1440 (9x)** | **No**
 **`video_mode=1600,48,32,80,1440,3,10,28,156394`** | [**sms**] | **160x144**| **1600x1440** | **10x** | **1440p** | **1600 (9x)** | **No**
+
+</blockquote>
+
+## <summary1><b> Sega Mega CD / Sega CD</b></summary1>
+
+<blockquote>
+
+- <summary><b> Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.711647 MHz** | **59.922751013551 Hz NTSC** | **320x224**| **32:25** | **64:49**
+
+- <summary><b> VRR Capable Display Modes</b></summary>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,896,3,10,13,79661`** | [**megacd**] | **320x224**| **1280x896** | **4x** | **896p** | **1280 (4x)**
+**`video_mode=1600,48,32,80,1120,3,10,19,121651`** | [**megacd**] | **320x224**| **1600x1120** | **5x** | **1120p** | **1600 (5x)**
+**`video_mode=1920,48,32,80,1344,3,10,26,172598`** | [**megacd**] | **320x224**| **1920x1344** | **6x** | **1344p** | **1920 (6x)**
 
 </blockquote>
 
