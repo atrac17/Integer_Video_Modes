@@ -60,9 +60,14 @@ W.I.P
 
 - <summary><b>Hardware Information</b></summary>
 
+
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **6.25 MHz** | **59.1874 Hz NTSC** | **280x240**| **54:55** | **200:163** |
+
+<b>For vertical games the pixel / sisplay Aspect Ratio will be reversed.</b>
+
+##
 
 - <summary><b>VRR Capable Display Modes</b></summary>
 
@@ -130,6 +135,7 @@ W.I.P
 **Sega Game Gear** | [**sms**] | **N/A**| **`custom_aspect_ratio_2=128:105`** | **Yes** | _**144p**_ |
 **Sega Mega CD / Sega CD** | [**megacd**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=32:25`** | **No** | _**224p**_ |
 **Famicom / Nintendo Entertainment System** | [**nes**] | **`custom_aspect_ratio_1=128:105`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**240p**_ |
+**Game Boy / Game Boy Color** | [**gameboy**] | **`custom_aspect_ratio_1=64:63`**| **`custom_aspect_ratio_2=10:9`** | **No** | _**144p**_ |
 **Super Famicom / Super Nintendo** | [**snes**] | **`custom_aspect_ratio_1=64:49`**| **`custom_aspect_ratio_2=8:7`** | **No** | _**224p**_ |
 
 </details>
@@ -317,7 +323,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
-**4.194304 / 8.388608 MHz** | **59.727500569606 Hz NTSC** | **160x144**| **10:9** | **3200:1971**
+**6.7108864 MHz** | **59.727500569606 Hz NTSC** | **160x144**| **10:9** | **64:63**
 
 - <summary><b>VRR Capable Display Modes</b></summary>
 
@@ -407,7 +413,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 ## <summary1><b>General Information</b></summary1>
 
-- Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
+- Designed for 5:4 IPS LCD TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
@@ -441,8 +447,13 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 ## <summary1><b>General Information</b></summary1>
 
-- Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
+- Designed for 5:4 IPS LCD TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
 
+## <summary1><b>MiSTer.ini Information</b></summary1>
+
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
+
+----
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
@@ -461,7 +472,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 ## <summary1><b>General Information</b></summary1>
 
-- Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
+- Designed for 5:4 IPS LCD TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
