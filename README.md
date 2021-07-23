@@ -34,13 +34,17 @@ W.I.P
 
 ----
 
-## <summary1><b>Capcom CP System Cores</b></summary1>
+<details>
+
+_<summary><b>Capcom Hardware</b></summary>_
+
+## <summary1><b>Capcom CP System Hardware</b></summary1>
 
 <blockquote>
 
 - <summary><b>Hardware Information</b></summary>
 
-<b>For vertical titles on a horizontal screen, the display aspect ratio will be different.</b>
+<b>Note that vertical titles displayed on a horizontal screen will have a different display aspect ration.</b>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|Display Aspect Ratio (Vert.)|
 |--|--|--|--|--|--|
@@ -57,13 +61,19 @@ W.I.P
 
 </blockquote>
 
-## <summary1><b>Konami 007121 (Contra Based) Cores</b></summary1>
+</details>
+
+<details>
+
+_<summary><b>Konami Hardware</b></summary>_
+
+## <summary1><b>Konami 007121 (Contra Based) Hardware</b></summary1>
 
 <blockquote>
 
 - <summary><b>Hardware Information</b></summary>
 
-<b>For vertical titles on a horizontal screen, the display aspect ratio will be different.</b>
+<b>Note that vertical titles displayed on a horizontal screen will have a different display aspect ration.</b>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|Display Aspect Ratio (Vert.)|
 |--|--|--|--|--|--|
@@ -79,7 +89,39 @@ W.I.P
 
 </blockquote>
 
+</details>
+
+<details>
+
+_<summary><b>Sega Hardware</b></summary>_
+
+## <summary1><b>Sega Sytem 16 Hardware</b></summary1>
+
+<blockquote>
+
+- <summary><b>Hardware Information</b></summary>
+
+<b>Note that vertical titles displayed on a horizontal screen will have a different display aspect ration.</b>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|Display Aspect Ratio (Vert.)|
+|--|--|--|--|--|--|
+**6.2937 MHz** | **60.28 Hz NTSC** | **320x240**| **39:40** | **400:287** | **28:41** |
+
+- <summary2><b>VRR Capable Display Modes</b></summary2>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,896,3,10,13,79661`** | [**jts16**] [**jts16a1**] [**jts16a2**] [**jts16b**] | **320x224**| **1280x896** | **4x** | **896p** | **1280 (4x)**
+**`video_mode=1600,48,32,80,1120,3,10,19,121651`** | [**jts16**] [**jts16a1**] [**jts16a2**] [**jts16b**] | **320x224**| **1600x1120** | **5x** | **1120p** | **1600 (5x)**
+**`video_mode=1920,48,32,80,1344,3,10,26,172598`** | [**jts16**] [**jts16a1**] [**jts16a2**] [**jts16b**] | **320x224**| **1920x1344** | **6x** | **1344p** | **1920 (6x)**
+
+</blockquote>
+
+</details>
+
 ----
+
+</details>
 
 </details>
 
@@ -419,7 +461,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
-## <summary1><b>Capcom CP System Cores</b></summary1>
+## <summary1><b>Capcom CP System Hardware</b></summary1>
 
 <blockquote>
 
