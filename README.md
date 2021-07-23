@@ -377,7 +377,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 <details>
 
-<summary><b>1280x1024 IPS/LCD TFT Display</b></summary>
+<summary><b>1280x1024 IPS/LCD/TFT Display</b></summary>
 
 ----
 
