@@ -40,9 +40,12 @@ W.I.P
 
 - <summary><b>Hardware Information</b></summary>
 
-|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
-|--|--|--|--|--|
-**8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**|
+<b>For vertical titles on a horizontal screen, the display aspect ratio will be different.</b>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|Display Aspect Ratio (Vert.)|
+|--|--|--|--|--|--|
+**8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**| **560:1251**|
+
 
 - <summary><b>VRR Capable Display Modes</b></summary>
 
@@ -60,14 +63,11 @@ W.I.P
 
 - <summary><b>Hardware Information</b></summary>
 
+<b>For vertical titles on a horizontal screen, the display aspect ratio will be different.</b>
 
-|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
-|--|--|--|--|--|
-**6.25 MHz** | **59.1874 Hz NTSC** | **280x240**| **54:55** | **200:163** |
-
-<b>For vertical games the pixel / sisplay Aspect Ratio will be reversed.</b>
-
-##
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|Display Aspect Ratio (Vert.)|
+|--|--|--|--|--|--|
+**6.25 MHz** | **59.1874 Hz NTSC** | **280x240**| **54:55** | **200:163** | **128:163** |
 
 - <summary><b>VRR Capable Display Modes</b></summary>
 
