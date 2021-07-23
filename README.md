@@ -2,45 +2,49 @@
 
 ## General Information
 
-This repository will contain custom resolutions for all available MiSTerFPGA cores currently available and in development. The custom **`video_mode`**(s) available will be targeted towards displays that have variable refresh rate and unique resolution capabilities.
-
-Several displays support VRR and unique resolutions. You will find a list of known working displays below. If your display is compatible and not listed, please inform me on github providing the information below in the template.
-
-The updater script in the repository will fetch the **`MiSTer.ini`** file the end-user configures in the script. They will have the ability to dictate it's name (**`MiSTer_alt_1.ini`**, **`MiSTer_alt_2.ini`** etc). Technical information regarding the video modes for each core are below. Please ensure to throughly read the information provided if you are configuring your own **`MiSTer.ini`** file from the information provided in this readme.
+W.I.P
 
 ## Updater Information
 
 W.I.P
 
-## Compatible Displays (Panel / CRT)
+## Compatible Display List
 
 W.I.P
 
-## Integer Scaled Custom Video Modelines (VRR Displays)
+# Custom Video Mode Information
+
+## Integer Scaled Custom Video Modelines
+
+<details>
+
+<summary><b>VRR Capable Display</a></b></summary>
+
+----
 
 <details>
 
 <summary><b>Arcade Core Video Modes <a href="https://www.github.com/jotego">(Jotego)</a></b></summary>
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
-   
-- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
 
-- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
 ----
 
-## <summary1><b> Capcom CP System Cores</b></summary1>
+## <summary1><b>Capcom CP System Cores</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -59,10 +63,10 @@ W.I.P
 <summary><b>Arcade Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
-   
-- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
 
-- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
 ----
 
@@ -78,23 +82,25 @@ W.I.P
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
-- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
-- Below are the correct **`custom aspect ratio`**(s) for each console core. These will be available in the pre-configured **`MiSTer.ini`** file(s). The end user can download pre-configered **`.cfg`** files for each core. This will override any current custom settings. Please ensure to back up your **`.cfg`** files for each console core in **`/media/fat/cfg/`** and apply any setting you previously had.
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
-- If a core has **`Dual Mode=Yes`** below, then there will only be one **`primary video mode`** available as the **FPGA core** supports multiple systems. For aspect ratios, **`custom_aspect_ratio_1=`** will support the primary playable hardware and **`custom_aspect_ratio_2=`** will be for the secondary playable hardware. 
+- If a core has Dual Mode=Yes below, then there will only be one primary video mode available as the core supports multiple systems for one video mode. For custom aspect ratios, the first will be for the primary hardware and the other for the secondary hardware. This only applies to Dual Mode=Yes video modes.
+
+- Below are the correct custom aspect ratios for each console core. These will be generated in the pre-configured MiSTer.ini files. The end-user can download pre-configured .cfg files for each core if applicable.
 
 ---
 
 ### <summary1><b>Console Core Custom Aspect Ratios:</b></summary1> 
 
-- Matching the **vertical resolution** to the modline will tell you which **custom aspect ratios** to utilize if you are configuring your own **`MiSTer.ini`** file.
+- The vertical resolution should match the modline. This will tell you which custom aspect ratio to utilize.
 
 ----
 
 <details>
 
-<summary><b> Primary Custom Aspect Ratios</b></summary>
+<summary><b>Primary Custom Aspect Ratios</b></summary>
 
 |Console|Core|Custom Aspect Ratio|Custom Aspect Ratio|Dual Mode|Resolution|
 |--|--|--|--|--|--|
@@ -110,7 +116,7 @@ W.I.P
 
 <details>
 
-<summary><b> Secondary Custom Aspect Ratios</b></summary>
+<summary><b>Secondary Custom Aspect Ratios</b></summary>
 
 |Console|Core|Custom Aspect Ratio|Custom Aspect Ratio|Dual Mode|Resolution|
 |--|--|--|--|--|--|
@@ -123,7 +129,7 @@ W.I.P
 
 ### **Console Core Custom Video Modes:**
 
-- Utilize the **`Primary Modelines`** for **`dual mode`** **console cores** listed below with the **custom aspect ratios** provided above. If you compile your own console core(s), you can utilize Secondary Modelines as well. In the future, I will have a tutorial for compiling if a core supports more than one resolution or piece of hardware. 
+- Utilize the primary modelines for dual mode cores listed below. Utilize thecustom aspect ratios provided above.
 
 ----
 
@@ -131,17 +137,17 @@ W.I.P
 
 _<summary><b>Sega Hardware</b></summary>_
 
-## <summary1><b> Sega SG-1000</b></summary1>
+## <summary1><b>Sega SG-1000</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.37 MHz** | **59.922751013551 Hz NTSC** | **256x192**| **8:7** | **32:21**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -151,17 +157,17 @@ _<summary><b>Sega Hardware</b></summary>_
 
 </blockquote>
 
-## <summary1><b> Sega Mark III / Sega Master System (Sega SG-1000 Compatible)</b></summary1>
+## <summary1><b>Sega Mark III / Sega Master System (Sega SG-1000 Compatible)</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.37 MHz** | **59.922751013551 Hz NTSC** | **256x192**| **8:7** | **32:21**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|Dual Mode|
 |--|--|--|--|--|--|--|--|
@@ -174,18 +180,18 @@ _<summary><b>Sega Hardware</b></summary>_
 
 </blockquote>
 
-## <summary1><b> Sega Mega Drive / Sega Genesis</b></summary1>
+## <summary1><b>Sega Mega Drive / Sega Genesis</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **6.71 MHz** | **59.922751013551 Hz NTSC** | **320x224**| **32:25** | **64:49**
 **5.37 MHz** | **59.922751013551 Hz NTSC** | **256x224**| **8:7** | **64:49**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -201,17 +207,17 @@ _<summary><b>Sega Hardware</b></summary>_
 
 </blockquote>
 
-## <summary1><b> Sega Game Gear</b></summary1>
+## <summary1><b>Sega Game Gear</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.37 MHz** | **59.922751013551 Hz NTSC** | **160x144**| **8:7** | **128:105**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|Dual Mode|
 |--|--|--|--|--|--|--|--|
@@ -226,17 +232,17 @@ _<summary><b>Sega Hardware</b></summary>_
 
 </blockquote>
 
-## <summary1><b> Sega Mega CD / Sega CD</b></summary1>
+## <summary1><b>Sega Mega CD / Sega CD</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **6.711647 MHz** | **59.922751013551 Hz NTSC** | **320x224**| **32:25** | **64:49**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -254,18 +260,18 @@ _<summary><b>Sega Hardware</b></summary>_
 
 _<summary><b>Nintendo Hardware</b></summary>_
 
-## <summary1><b> Nintendo Famicom (Family Computer) / Nintendo NES (Nintendo Entertainment System)</b></summary1>
+## <summary1><b>Nintendo Famicom / Nintendo Entertainment System</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.37 MHz** | **60.098813897441 Hz NTSC** | **256x240**| **8:7** | **128:105**
 **5.37 MHz** | **60.098813897441 Hz NTSC** | **256x224**| **8:7** | **64:49**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -273,7 +279,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 **`video_mode=1536,48,32,80,1200,3,10,22,125674`** | [**nes**] | **256x240**| **1536x1200** | **5x** | **1200p** | **1536 (6x)**
 **`video_mode=1792,48,32,80,1440,3,10,28,173455`** | [**nes**] | **256x240**| **1792x1440** | **6x** | **1440p** | **1792 (7x)**
 
-- _<b>Utilize the **`Secondary Modelines`** below if you enable **`Hide Overscan: Yes`** in the **`MiSTer OSD`** and **`Mask Edges: Auto`** in the **NES core**</b>._
+- _<b>Utilize the Secondary Modelines below if you enable Hide Overscan: Yes and Mask Edges: Auto in the MiSTer OSD</b>._
 
 |Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -283,18 +289,39 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 </blockquote>
 
-## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
+## <summary1><b>Game Boy / Game Boy Color</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**4.194304 / 8.388608 MHz** | **59.727500569606 Hz NTSC** | **160x144**| **10:9** | **3200:1971**
+
+- <summary><b>VRR Capable Display Modes</b></summary>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1120,48,32,80,1008,3,10,16,79642`** | [**gameboy**] | **160x144**| **1120x1008** | **7x** | **1008p** | **1120 (7x)**
+**`video_mode=1280,48,32,80,1152,3,10,20,102384`** | [**gameboy**] | **160x144**| **1280x1152** | **8x** | **1152p** | **1280 (8x)**
+**`video_mode=1440,48,32,80,1296,3,10,24,127968`** | [**gameboy**] | **160x144**| **1440x1296** | **9x** | **1296p** | **1440(9x)**
+**`video_mode=1600,48,32,80,1440,3,10,28,156394`** | [**gameboy**] | **160x144**| **1600x1440** | **10x** | **1440p** | **1600 (10x)**
+
+</blockquote>
+
+## <summary1><b>Super Famicom / Super Nintendo</b></summary1>
+
+<blockquote>
+
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.37 MHz** | **60.098813897441 Hz NTSC** | **256x224 / 256x240**| **8:7** | **64:49**
 **10.47 MHz** | **60.098813897441 Hz NTSC** | **512x224 / 512x240**| **16:7** | **128:105**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modelines NTSC|FPGA Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -310,16 +337,49 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 </blockquote>
 
+</details>
+
+</details>
+
+</details>
+
+----
+
+<details>
+
+<summary><b>2048x1536 Hi-Res CRT Monitor</b></summary>
+
+----
+
+### W.I.P
+
 ----
 
 </details>
 
 ----
 
+<details>
+
+<summary><b>1280x1024 CRT Monitor</b></summary>
+
+----
+
+### W.I.P
+
+----
+
 </details>
 
+----
 
-## Integer-Step Scaled Custom Video Modelines (5:4 IPS/LCD/TFT Displays)
+## Integer-Step Scaled Custom Video Modelines
+
+<details>
+
+<summary><b>1280x1024 IPS/LCD TFT Display</b></summary>
+
+----
 
 <details>
 
@@ -327,25 +387,25 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 ## <summary1><b>General Information</b></summary1>
 
-- Designed for **5:4 IPS/LCD/TFT** displays with a native resolution of **1280x1024**. Do not use these **`video_mode`**(s) with common **VGA CRT** monitors with the same native resolution.
+- Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
-- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
+- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
-- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
-## <summary1><b> Capcom CP System Cores</b></summary1>
+## <summary1><b>Capcom CP System Cores</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modeline NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
 |--|--|--|--|--|--|--|--|
@@ -353,34 +413,60 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 </blockquote>
 
+----
+
 </details>
 
 <details>
 
- <summary><b>Console Core Video Modes</b></summary>
-
-## <summary1><b>General Information</b></summary1>
-
-- Designed for **5:4 IPS/LCD/TFT** displays with a native resolution of **1280x1024**. Do not use these **`video_mode`**(s) with common **VGA CRT** monitors with the same native resolution.
+<summary><b>Arcade Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
-- The default resolution for the **`MiSTer.ini`** should always be **720p**. Change the following default **`video_mode=0`** to set **720p** as your default resolution. If the end-user is generating a pre-configured **`MiSTer.ini`** this will be the default.
+- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
-- Unless stated below, the default **`MiSTer.ini`** settings for each core will be **`vscale_mode=1`** and **`vsync_adjust=2`**. If the end-user is generating a pre-configured **`MiSTer.ini`** they will have the option to configure **`vsync_adjust`** themselves.
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
-## <summary1><b> Sega Mega Drive / Sega Genesis</b></summary1>
+----
+
+### W.I.P
+
+----
+
+</details>
+
+<details>
+
+<summary><b>Console Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
+
+## <summary1><b>General Information</b></summary1>
+
+- Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
+
+## <summary1><b>MiSTer.ini Information</b></summary1>
+
+- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+
+- Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
+
+----
+
+<details>
+
+_<summary>Sega Hardware</summary>_
+
+## <summary1><b>Sega Mega Drive / Sega Genesis</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **6.71 MHz** | **59.922751013551 Hz NTSC** | **320x224**| **32:25** | **64:49**
 **5.37 MHz** | **59.922751013551 Hz NTSC** | **256x224**| **8:7** | **64:49**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modeline NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
 |--|--|--|--|--|--|--|--|
@@ -392,18 +478,26 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 </blockquote>
 
-## <summary1><b> Super Famicom / Super Nintendo</b></summary1>
+</details>
+
+----
+
+<details>
+
+_<summary>Nintendo Hardware</summary>_
+
+## <summary1><b>Super Famicom / Super Nintendo</b></summary1>
 
 <blockquote>
 
-- <summary><b> Hardware Information</b></summary>
+- <summary><b>Hardware Information</b></summary>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.37 MHz** | **60.098813897441 Hz NTSC** | **256x224 / 256x240**| **8:7** | **64:49**
 **10.47 MHz** | **60.098813897441 Hz NTSC** | **512x224 / 512x240**| **16:7** | **128:105**
 
-- <summary><b> VRR Capable Display Modes</b></summary>
+- <summary><b>VRR Capable Display Modes</b></summary>
 
 |Primary Modeline NTSC|FPGA Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|**vscale_mode**|
 |--|--|--|--|--|--|--|--|
@@ -415,8 +509,45 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 </blockquote>
 
+----
+
 </details>
 
+----
+
+</details>
+
+</details>
+
+----
+
+<details>
+
+<summary><b>2048x1536 IPS LCD HI-DPI Display</b></summary>
+
+----
+
+### W.I.P
+
+----
+
+</details>
+
+----
+
+<details>
+
+<summary><b>1280x1024 CRT Monitor</b></summary>
+
+----
+
+### W.I.P
+
+----
+
+</details>
+
+----
 ## Support
 
 Please consider showing support for this and future projects at **[Patreon](https://www.patreon.com/atrac17)**. While it isn't necessary, it's greatly appreciated.
