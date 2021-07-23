@@ -28,7 +28,7 @@ W.I.P
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
-- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+- The default display resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
@@ -42,7 +42,7 @@ W.I.P
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
-**8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**
+**8.00 MHz** | **59.6294 Hz NTSC** | **384x224**| **135:176** | **1280:973**|
 
 - <summary><b>VRR Capable Display Modes</b></summary>
 
@@ -51,6 +51,26 @@ W.I.P
 **`video_mode=1152,48,32,80,896,3,10,13,72580`** | [**jtcps1**] [**jtcps15**] [**jtcps2**] | **384x224**| **1152x896** | **4x** | **896p** | **1152 (3x)**
 **`video_mode=1536,48,32,80,1120,3,10,19,117228`** | [**jtcps1**] [**jtcps15**] [**jtcps2**] | **384x224**| **1536x1120** | **5x** | **1120p** | **1536 (4x)**
 **`video_mode=1920,48,32,80,1344,3,10,25,172474`** | [**jtcps1**] [**jtcps15**] [**jtcps2**] | **384x224**| **1920x1344** | **6x** | **1344p** | **1920 (5x)**
+
+</blockquote>
+
+## <summary1><b>Konami 007121 (Contra Based) Cores</b></summary1>
+
+<blockquote>
+
+- <summary><b>Hardware Information</b></summary>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.25 MHz** | **59.1874 Hz NTSC** | **280x240**| **54:55** | **200:163** |
+
+- <summary><b>VRR Capable Display Modes</b></summary>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1120,48,32,80,896,3,7,16,70810`** | [**jtcontra**] [**jtcomsc**] [**jtlabrun**] | **280x240**| **1120x896** | **4x** | **896p** | **1120 (4x)**
+**`video_mode=1400,48,32,80,1120,3,7,22,107827`** | [**jtcontra**] [**jtcomsc**] [**jtlabrun**] | **280x240**| **1400x1120** | **5x** | **1120p** | **1400 (5x)**
+**`video_mode=1680,48,32,80,1344,3,7,28,152573`** | [**jtcontra**] [**jtcomsc**] [**jtlabrun**] | **280x240**| **1680x1344** | **6x** | **1344p** | **1680 (6x)**
 
 </blockquote>
 
@@ -64,7 +84,7 @@ W.I.P
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
-- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+- The default display resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
@@ -82,7 +102,7 @@ W.I.P
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
 
-- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+- The default display resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
@@ -377,7 +397,7 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 <details>
 
-<summary><b>1280x1024 IPS/LCD/TFT Display</b></summary>
+<summary><b>1280x1024 IPS LCD TFT Display</b></summary>
 
 ----
 
@@ -390,8 +410,6 @@ _<summary><b>Nintendo Hardware</b></summary>_
 - Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
-
-- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
@@ -421,9 +439,11 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 <summary><b>Arcade Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
 
-## <summary1><b>MiSTer.ini Information</b></summary1>
+## <summary1><b>General Information</b></summary1>
 
-- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
+- Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
+
+## <summary1><b>MiSTer.ini Information</b></summary1>
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
@@ -444,8 +464,6 @@ _<summary><b>Nintendo Hardware</b></summary>_
 - Designed for 5:4 IPS/LCD/TFT displays with a native resolution of 1280x1024. Not to be utilized on CRT monitors with the same native resolution.
 
 ## <summary1><b>MiSTer.ini Information</b></summary1>
-
-- The default resolution for the MiSTer.ini should always be 720p. When generating a pre-configured MiSTer.ini this will be the default.
 
 - Unless stated below, the default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. When generating a pre-configured MiSTer.ini they will have the option to configure vsync_adjust.
 
