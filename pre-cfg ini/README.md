@@ -47,7 +47,7 @@ _<summary><b>5x ( or equivalent) Integer Scaled</b></summary>_
 
 <blockquote>
 
-This pre-configured .ini file is only set for 4x or equivalent custom video modes. Ensure the display utilizing custom video modes is set to 4:3 or original to display the proper aspect ratio.
+This pre-configured .ini file is only set for 5x or equivalent custom video modes. Ensure the display utilizing custom video modes is set to 4:3 or original to display the proper aspect ratio.
 
 This pre-configured .ini file **is not setup to do dual display** for an analog IO board. You must configure the .ini for dual display yourself. I cannot assume everyone's settings (i.e. YPbPr, RGBS, RGBHV, RGsB) for their CRT monitor.
 
@@ -84,7 +84,7 @@ _<summary><b>6x ( or equivalent) Integer Scaled</b></summary>_
 
 <blockquote>
 
-This pre-configured .ini file is only set for 4x or equivalent custom video modes. Ensure the display utilizing custom video modes is set to 4:3 or original to display the proper aspect ratio.
+This pre-configured .ini file is only set for 6x or equivalent custom video modes. Ensure the display utilizing custom video modes is set to 4:3 or original to display the proper aspect ratio.
 
 This pre-configured .ini file **is not setup to do dual display** for an analog IO board. You must configure the .ini for dual display yourself. I cannot assume everyone's settings (i.e. YPbPr, RGBS, RGBHV, RGsB) for their CRT monitor.
 

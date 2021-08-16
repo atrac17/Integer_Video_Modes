@@ -737,9 +737,9 @@ _<summary><b>NEC Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
-**video_mode=1440,48,32,80,924,3,10,14,91296** | [**tgfx16**] | **360x231 (FPGA Core)**| **1440x924** | **4x** | **924p** | **1440 (4x)** |
-**video_mode=1800,48,32,80,1155,3,10,20,139709** | [**tgfx16**] | **360x231 (FPGA Core)**| **1800x1155** | **5x** | **1155p** | **1800 (5x)** |
-**video_mode=1800,48,32,80,1386,3,10,27,167698** | [**tgfx16**] | **360x231 (FPGA Core)**| **1800x1386** | **6x / 5x (Hor.)** | **1386p** | **1800 (5x)** |
+**`video_mode=1440,48,32,80,924,3,10,14,91296`** | [**tgfx16**] | **360x231 (FPGA Core)**| **1440x924** | **4x** | **924p** | **1440 (4x)** |
+**`video_mode=1800,48,32,80,1155,3,10,20,139709`** | [**tgfx16**] | **360x231 (FPGA Core)**| **1800x1155** | **5x** | **1155p** | **1800 (5x)** |
+**`video_mode=1800,48,32,80,1386,3,10,27,167698`** | [**tgfx16**] | **360x231 (FPGA Core)**| **1800x1386** | **6x / 5x (Hor.)** | **1386p** | **1800 (5x)** |
 
 ### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
 
