@@ -9,7 +9,7 @@
 
 - The custom video modes provided will integer scale the default resolution of the FPGA core. This will enhance filters and display the image bezel to bezel vertically if applied properly. 
   
-  The scale function available in the MiSTerFPGA framework is limited to adjusting the horizontal resolution only based upon an algorithm. Though this may be similar, custom video modes also adjusts the vertical resolution.
+  The scale function available in the MiSTerFPGA framework is limited to adjusting the horizontal resolution only based upon an algorithm. Though this may be similar, custom video modes also adjust the vertical resolution.
 
 <details>
 
@@ -65,7 +65,7 @@ _<summary><b>2048x1536 QXGA 9.7" Displays</b></summary>_
 
 <details>
 
-_<summary><b>Notes</b></summary>_
+_<summary><b>Compatible Display List Notes</b></summary>_
 
 <blockquote>
 
