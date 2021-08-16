@@ -1,28 +1,19 @@
 
-
 ![logo](https://user-images.githubusercontent.com/32810066/128452226-e23e1552-abb7-434b-92e1-b4b35a23a5af.png)
 
 # Repository Information
-
-<details>
-
-_<summary><b>General</b></summary>_
-
-<blockquote>
 
 - This repository will house custom video modes for FPGA cores. This project has been ongoing for over seven months. I'd like to take a moment to thank those who have supported it. 
 
 - These settings are not universal for every display, they enhance the overall experience and target variable refresh rate, g-sync, or freesync displays. Your display may not accept them, I have no control over this. Please read the information provided thoroughly. See the F.A.Q for further assistance.
 
-- The custom video modes provided will integer scale the default resolution of the FPGA core. This will enhance filters and display the image bezel to bezel vertically if applied properly. The scale function available in the MiSTerFPGA framework is limited to adjusting the horizontal resolution only based upon an algorithm. Though this may be similar, custom video modes also adjusts the vertical resolution.
-
-</blockquote>
-
-</details>
+- The custom video modes provided will integer scale the default resolution of the FPGA core. This will enhance filters and display the image bezel to bezel vertically if applied properly. 
+  
+  The scale function available in the MiSTerFPGA framework is limited to adjusting the horizontal resolution only based upon an algorithm. Though this may be similar, custom video modes also adjusts the vertical resolution.
 
 <details>
 
-_<summary><b>Specific</b></summary>_
+_<summary><b>Detailed Information</b></summary>_
 
 <blockquote>
 
@@ -38,7 +29,7 @@ _<summary><b>Specific</b></summary>_
 
 <details>
 
-_<summary><b>Notes</b></summary>_
+_<summary><b>Repository Notes</b></summary>_
 
 <blockquote>
 
