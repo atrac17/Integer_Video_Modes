@@ -516,7 +516,7 @@ _<summary><b>Cave Hardware</b></summary>_
 <b>The Cave 68000 core does not support custom aspect ratios at this time. The only available options are 4:3 and 16:9; these are [hardcoded](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer/blob/5f2000bb8bb9aeec6760579bd5667414aecf99f0/quartus/cave.sv#L164) to the core.</b>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
-|--|--|--|--|--|--|
+|--|--|--|--|--|
 **7.00 MHz** | **57.4200000 Hz NTSC** | **320x240**| **135:154** | **256:219** |
 **8.00 MHz** | **57.4200000 Hz NTSC** | **384x240**| **135:176** | **1280:1251** |
 
@@ -1056,8 +1056,8 @@ _<summary><b>Sega Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
-**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**genesis**] | **320x224** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** |
-**`video_mode=1280,80,128,208,1008,3,10,25,106441`** | [**genesis**] | **320x224** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** | **1** |
+**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**megacd**] | **320x224** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** |
+**`video_mode=1280,80,128,208,1008,3,10,25,106441`** | [**megacd**] | **320x224** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** | **1** |
 
 </blockquote>
 
