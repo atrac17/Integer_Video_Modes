@@ -3,11 +3,8 @@
 
 # Template .ini File Information
 
-<blockquote>
-
 This template .ini file was taken from the [**MiSTer-devel**](https://github.com/MiSTer-devel/Main_MiSTer/blob/master/MiSTer.ini) repository. It will be periodically updated when changes occur. These changes will then be pushed to MiSTer Integer Modeline build script and/or pre-configured .ini files when this occurs.
 
-</blockquote>
 
 # License
 
