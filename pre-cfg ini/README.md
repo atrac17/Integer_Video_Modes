@@ -1,4 +1,5 @@
 
+
 ![logo](https://user-images.githubusercontent.com/32810066/128452226-e23e1552-abb7-434b-92e1-b4b35a23a5af.png)
 
 # Pre-Configured .ini File Information
@@ -13,7 +14,42 @@ This pre-configured .ini file is only set for 4x or equivalent custom video mode
 
 This pre-configured .ini file **is not setup to do dual display** for an analog IO board. You must configure the .ini for dual display yourself. I cannot assume everyone's settings (i.e. YPbPr, RGBS, RGBHV, RGsB) for their CRT monitor.
 
-### YPbPr
+The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
+
+The defualt setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
+
+_<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
+
+- Enable Hide Overscan: Yes and Mask Edges: Auto in the MiSTer OSD. This simulates playing on a CRT with the overscan areas pushed out of the display horizontally and vertically.
+
+_<b>Sega Mark III / Master System see the following:</b>_
+
+- Sega Mark III / Master System are shared with GameGear hardware in the FPGA core. You will need to ssh into your device and set the custom video mode per hardware selection.
+
+### Notes:
+
+If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
+
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+
+In the interim, you can utilize the setname provided in the .mra file if necessary.
+
+- Example: 
+[jt1942] would become [1942] per the setname provided in the .mra file.
+
+</blockquote>
+
+</details>
+
+<details>
+
+_<summary><b>5x ( or equivalent) Integer Scaled</b></summary>_
+
+<blockquote>
+
+This pre-configured .ini file is only set for 4x or equivalent custom video modes. Ensure the display utilizing custom video modes is set to 4:3 or original to display the proper aspect ratio.
+
+This pre-configured .ini file **is not setup to do dual display** for an analog IO board. You must configure the .ini for dual display yourself. I cannot assume everyone's settings (i.e. YPbPr, RGBS, RGBHV, RGsB) for their CRT monitor.
 
 The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
 
@@ -23,9 +59,46 @@ _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
 - Enable Hide Overscan: Yes and Mask Edges: Auto in the MiSTer OSD. This simulates playing on a CRT with the overscan areas pushed out of the display horizontally and vertically.
 
-_<b>Sega Mark III Master System see the following:</b>_
+_<b>Sega Mark III / Master System see the following:</b>_
 
-- Sega Mark III Master System are shared with GameGear hardware in the FPGA core. You will need to ssh into your device and set the custom video mode per hardware selection.
+- Sega Mark III / Master System are shared with GameGear hardware in the FPGA core. For this pre-configured .ini file a **Dual Mode** custom video mode has been utilized. This does not require switching the custom video mode when switching between Mark II/ Master System titles.
+
+### Notes:
+
+If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
+
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+
+In the interim, you can utilize the setname provided in the .mra file if necessary.
+
+- Example: 
+[jt1942] would become [1942] per the setname provided in the .mra file.
+
+</blockquote>
+
+</details>
+
+<details>
+
+_<summary><b>6x ( or equivalent) Integer Scaled</b></summary>_
+
+<blockquote>
+
+This pre-configured .ini file is only set for 4x or equivalent custom video modes. Ensure the display utilizing custom video modes is set to 4:3 or original to display the proper aspect ratio.
+
+This pre-configured .ini file **is not setup to do dual display** for an analog IO board. You must configure the .ini for dual display yourself. I cannot assume everyone's settings (i.e. YPbPr, RGBS, RGBHV, RGsB) for their CRT monitor.
+
+The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
+
+The defualt setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
+
+_<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
+
+- Enable Hide Overscan: Yes and Mask Edges: Auto in the MiSTer OSD. This simulates playing on a CRT with the overscan areas pushed out of the display horizontally and vertically.
+
+_<b>Sega Mark III / Master System see the following:</b>_
+
+- Sega Mark III / Master System are shared with GameGear hardware in the FPGA core. You will need to ssh into your device and set the custom video mode per hardware selection.
 
 ### Notes:
 
