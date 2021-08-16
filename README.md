@@ -95,7 +95,7 @@ If you have a display that correctly resolves these custom video modes, please c
 
 - Integer-Step Scaled video modes are available for 1280x1024 LCD displays and common VGA CRT monitors with the same resolution; different video mode is provided. Video modes for VGA CRT monitors are to be utilized with vga_scaler=1.
 
-- When utilizing Integer-Step Scaled video modes set the aspect ratio: full screen in the MiSTer OSD. This is the proper way to utilize these custom video modes. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD. This is the proper way to utilize VGA CRT monitor custom video modes.
+- When utilizing Integer-Step Scaled video modes set the aspect ratio: full screen in the MiSTer OSD. This properly displays the provided custom video modes. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD. This is the proper way to utilize VGA CRT monitor custom video modes.
 
 ----
 
@@ -488,7 +488,7 @@ _<summary><b>Technos Hardware</b></summary>_
 
 - Integer-Step Scaled video modes are available for 1280x1024 LCD displays and common VGA CRT monitors with the same resolution; different video mode is provided. Video modes for VGA CRT monitors are to be utilized with vga_scaler=1.
 
-- When utilizing Integer-Step Scaled video modes set the aspect ratio: full screen in the MiSTer OSD. This is the proper way to utilize these custom video modes. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD. This is the proper way to utilize VGA CRT monitor custom video modes.
+- When utilizing Integer-Step Scaled video modes set the aspect ratio: full screen in the MiSTer OSD. This properly displays the provided custom video modes. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD. This is the proper way to utilize VGA CRT monitor custom video modes.
 
 ----
 
@@ -620,7 +620,7 @@ _<summary><b>SNK Hardware</b></summary>_
 
 - Integer-Step Scaled video modes are available for 1280x1024 LCD displays and common VGA CRT monitors with the same resolution; different video mode is provided. Video modes for VGA CRT monitors are to be utilized with vga_scaler=1.
 
-- When utilizing Integer-Step Scaled video modes set the aspect ratio: full screen in the MiSTer OSD. This is the proper way to utilize these custom video modes. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD. This is the proper way to utilize VGA CRT monitor custom video modes.
+- When utilizing Integer-Step Scaled video modes set the aspect ratio: full screen in the MiSTer OSD. This properly displays the provided custom video modes. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD. This is the proper way to utilize VGA CRT monitor custom video modes.
 
 - If a core has Dual Mode=Yes below, then there will only be one primary video mode available as the core supports multiple systems for one video mode. For custom aspect ratios, the first will be for the primary hardware and the other for the secondary hardware. This only applies to Dual Mode=Yes video modes.
 

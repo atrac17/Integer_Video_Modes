@@ -30,7 +30,7 @@ _<b>Sega Mark III / Master System see the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -67,7 +67,7 @@ _<b>Sega Mark III / Master System see the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -104,7 +104,7 @@ _<b>Sega Mark III / Master System see the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -127,7 +127,7 @@ The default display resolution for the MiSTer.ini should always be 720p when uti
 
 The default setting for this .ini file is vga_scaler=1.
 
-_<b>When utilizing Integer-Step Scaled video modes set Aspect Ratio: Full Screen in the MiSTer OSD. This is the proper way to utilize these custom video modes.</b>_
+_<b>When utilizing Integer-Step Scaled video modes set Aspect Ratio: Full Screen in the MiSTer OSD. This properly displays the provided custom video modes.</b>_
 
 _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
@@ -137,7 +137,7 @@ _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -160,7 +160,7 @@ The default display resolution for the MiSTer.ini should always be 720p when uti
 
 You have two options for this .ini file, you can utilize dvi_mode=1 and use a HDMI to DVI adapter or vga_scaler=1. Neither is set in the pre-configured .ini file. Please specify this yourself, I cannot assume how you will utilize this .ini file with your display.
 
-_<b>When utilizing Integer-Step Scaled video modes set Aspect Ratio: Full Screen in the MiSTer OSD. This is the proper way to utilize these custom video modes.</b>_
+_<b>When utilizing Integer-Step Scaled video modes set Aspect Ratio: Full Screen in the MiSTer OSD. This properly displays the provided custom video modes.</b>_
 
 _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
@@ -170,7 +170,7 @@ _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. You should report the issue to that authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
