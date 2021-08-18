@@ -572,10 +572,45 @@ _<summary><b>Irem Hardware</b></summary>_
 
 - _<b>Optional: Utilize the Secondary Modelines below if you are playing 256px (horizontal) titles.</b>_
 
-|Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
-|--|--|--|--|--|--|--|
+|Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
 **`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**a.iremm62**] | **256x255**| **1280x1275** | **4x / 5x (Hor.)** | **1020p** | **1280 (5x)** | **1** |
 **`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**a.iremm62**] | **256x255**| **1280x1275** | **4x / 5x (Hor.)** | **1020p** | **1280 (5x)** | **1** | **1** |
+
+</blockquote>
+
+</details>
+
+<details>
+
+_<summary><b>Konami Hardware</b></summary>_
+
+### <summary1><b>Konami M6809 (Double Dribble Based) Hardware</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![31](https://user-images.githubusercontent.com/32810066/129876516-e3f8bce1-662c-4027-8037-90b238fc4346.png)
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.144 MHz** | **61.0500000 Hz NTSC** | **240x224**| **5625:5632** | **15:14** |
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=960,48,32,80,896,3,10,13,61958`** | [**a.ironhorse**] [**a.jackal**] | **240x224**| **960x896** | **4x** | **896p** | **960 (4x)** |
+**`video_mode=1200,48,32,80,1120,3,10,20,94085`** | [**a.ironhorse**] [**a.jackal**] | **240x224**| **1200x1120** | **5x** | **1120p** | **1200 (5x)** |
+**`video_mode=1440,48,32,80,1344,3,10,26,132768`** | [**a.ironhorse**] [**a.jackal**] | **240x224**| **1440x1344** | **6x** | **1344p** | **1440 (6x)** |
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1200,48,32,80,1008,3,10,17,84701`** | [**a.ironhorse**] [**a.jackal**] | **240x224**| **1200x1008** | **4.5x / 5x (Hor.)** | **1008p** | **1200 (5x)** | **2** |
+**`video_mode=1200,48,32,80,1008,3,10,17,84701`** | [**a.ironhorse**] [**a.jackal**] | **240x224**| **1200x1008** | **4.5x / 5x (Hor.)** | **1008p** | **1200 (5x)** | **2** | **1** |
 
 </blockquote>
 
@@ -654,6 +689,8 @@ _<summary><b>SNK Hardware</b></summary>_
 </details>
 
 ----
+
+</details>
 
 </details>
 
