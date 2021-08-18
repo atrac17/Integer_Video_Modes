@@ -71,7 +71,7 @@ _<summary><b>Compatible Display List Notes</b></summary>_
 
 The Compatible Display List for this repository is currently a work in progress, just like the repository itself. This is currently a pre-release and more information regarding compatible displays will be added in the future. 
 
-If you have a display that correctly resolves these custom video modes, please create an issue within the repository and provide the compatible resolutions, make, model, firmware (where applicable), and general information on how you resolve the proper aspect ration on the display and I will add it to the repository.
+If you have a display that correctly resolves these custom video modes, please create an issue within the repository and provide the compatible resolutions, make, model, firmware (where applicable), and general information on how you resolve the proper aspect ratio on the display and I will add it to the repository.
 
 </blockquote>
 
