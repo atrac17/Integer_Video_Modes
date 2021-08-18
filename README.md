@@ -540,7 +540,7 @@ _<summary><b>Irem Hardware</b></summary>_
 
 ### <summary2><b>Hardware Information for:</b></summary2>
 
-![31](https://user-images.githubusercontent.com/32810066/129868429-6ef36ae3-55b3-48ef-a5de-e1e9cf5551a8.png)
+![30](https://user-images.githubusercontent.com/32810066/129884118-239953a3-8cd6-4ba1-9250-55a4eae3cfbe.png)
 
 <b>Irem M62 hardware has different horizontal resolutions set by jumpers on the actual PCB. Spanning from 256px to 384px. The primary video mode will cover both horizontal resolutions. 256px mode will result in a border (Kung Fu Master / Spartan X) but display the correct aspect ratio.</b>
 
@@ -583,9 +583,38 @@ _<summary><b>Irem Hardware</b></summary>_
 
 <details>
 
+### <summary1><b>Konami 005849 (Green Beret Based) Hardware</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![33](https://user-images.githubusercontent.com/32810066/129899428-a1aea73c-3078-43eb-b3a1-e3f2415d817d.png)
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.144 MHz** | **60.600000 Hz NTSC** | **240x224**| **5625:5632** | **15:14** |
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=960,48,32,80,896,3,10,13,61958`** | [**a.rshnatk**]| **240x224**| **960x896** | **4x** | **896p** | **960 (4x)** |
+**`video_mode=1200,48,32,80,1120,3,10,20,94085`** | [**a.rshnatk**]| **240x224**| **1200x1120** | **5x** | **1120p** | **1200 (5x)** |
+**`video_mode=1440,48,32,80,1344,3,10,26,132768`** | [**a.rshnatk**]| **240x224**| **1440x1344** | **6x** | **1344p** | **1440 (6x)** |
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1200,48,32,80,1008,3,10,17,84701`** | [**a.rshnatk**]| **240x224**| **1200x1008** | **4.5x / 5x (Hor.)** | **1008p** | **1200 (5x)** | **2** |
+**`video_mode=1200,48,32,80,1008,3,10,17,84701`** | [**a.rshnatk**]| **240x224**| **1200x1008** | **4.5x / 5x (Hor.)** | **1008p** | **1200 (5x)** | **2** | **1** |
+
+</blockquote>
+
 _<summary><b>Konami Hardware</b></summary>_
 
-### <summary1><b>Konami M6809 (Double Dribble Based) Hardware</b></summary1>
+### <summary1><b>Konami 005885 (Double Dribble Based) Hardware</b></summary1>
 
 <blockquote>
 
