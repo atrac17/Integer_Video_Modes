@@ -30,7 +30,7 @@ _<b>Sega Mark III / Master System see the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -67,7 +67,7 @@ _<b>Sega Mark III / Master System see the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -104,7 +104,7 @@ _<b>Sega Mark III / Master System see the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -137,7 +137,7 @@ _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 
@@ -170,7 +170,7 @@ _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
 If a custom video mode is not applied to an Arcade core, I have no control over this. I do not maintain the MiSTerFPGA framework repository or core repositories available in mister-devel or jtbin. 
 
-The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue to in the authors core repository. 
+The common name in the core is dictated by the core author. Occasionally, a change may occur that breaks this feature. Report the issue in the authors core repository. 
 
 In the interim, you can utilize the setname provided in the .mra file if necessary.
 

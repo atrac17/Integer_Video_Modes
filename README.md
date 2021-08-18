@@ -532,6 +532,57 @@ _<summary><b>Cave Hardware</b></summary>_
 
 <details>
 
+_<summary><b>Irem Hardware</b></summary>_
+
+## <summary1><b>Irem M62</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![31](https://user-images.githubusercontent.com/32810066/129868429-6ef36ae3-55b3-48ef-a5de-e1e9cf5551a8.png)
+
+<b>Irem M62 hardware has different horizontal resolutions set by jumpers on the actual PCB. Spanning from 256px to 384px. The primary video mode will cover both horizontal resolutions. 256px mode will result in a border (Kung Fu Master / Spartan X) but display the correct aspect ratio.</b>
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.144 MHz** | **56.338028  Hz NTSC** | **256x255**| **5625:5632** | **256:255** |
+**8.00 MHz** | **55.017606  Hz NTSC** | **384x255**| **135:176** | **3409:2950** |
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1536,48,32,80,1020,3,10,14,106543`** | [**a.iremm62**] | **384x255**| **1536x1020** | **4x** | **1020p** | **1536 (4x)** |
+**`video_mode=1920,48,32,80,1275,3,10,21,163363`** | [**a.iremm62**] | **384x255**| **1920x1275** | **5x** | **1275p** | **1920 (5x)** |
+
+- _<b>Optional: Utilize the Secondary Modelines below if you are playing 256px (horizontal) titles.</b>_
+
+|Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1024,48,32,80,1020,3,10,15,74450`** | [**a.iremm62**] | **256x255**| **1024x1020** | **4x** | **1020p** | **1024 (4x)** |
+**`video_mode=1280,48,32,80,1275,3,10,21,113098`** | [**a.iremm62**] | **256x255**| **1280x1275** | **5x** | **1275p** | **1280 (5x)** |
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1248,48,32,80,1020,3,10,15,88535`** | [**a.iremm62**] | **384x255** | **1248x1020** | **4x / 3.25x (Hor.)** | **1020p** | **1248 (3.25x)** | **3** |
+**`video_mode=1248,72,128,200,1020,3,10,23,104417`** | [**a.iremm62**] | **384x255** | **1248x1020** | **4x / 3.25x (Hor.)** | **1020p** | **1248 (3.25x)** | **3** | **1** |
+
+- _<b>Optional: Utilize the Secondary Modelines below if you are playing 256px (horizontal) titles.</b>_
+
+|Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**a.iremm62**] | **256x255**| **1280x1275** | **4x / 5x (Hor.)** | **1020p** | **1280 (5x)** | **1** |
+**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**a.iremm62**] | **256x255**| **1280x1275** | **4x / 5x (Hor.)** | **1020p** | **1280 (5x)** | **1** | **1** |
+
+</blockquote>
+
+</details>
+
+<details>
+
 _<summary><b>Sega Hardware</b></summary>_
 
 ## <summary1><b>Sega System 1 / Sega System 2</b></summary1>
@@ -606,6 +657,8 @@ _<summary><b>SNK Hardware</b></summary>_
 
 </details>
 
+</details>
+
 <details>
 
 <summary><b>Console Core Video Modes <a href="https://github.com/MiSTer-devel">(MiSTer-devel)</a></b></summary>
@@ -635,6 +688,35 @@ _<summary><b>SNK Hardware</b></summary>_
 <details>
 
 _<summary><b>Atari Hardware</b></summary>_
+
+## <summary1><b> Atari 7800</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![Atari_7800_Logo](https://user-images.githubusercontent.com/32810066/129828819-21ef9138-42e9-4613-b664-a2e72855eb2a.png)
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**7.16 MHz** | **59.922751013551 Hz NTSC** | **372x224**| **6:7** | **3720:2611** |
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1488,48,32,80,896,3,10,13,91167`** | [**atari7800**] | **372x224** | **1488x896**| **4x** | **896p** | **1488 (4x)** |
+**`video_mode=1860,48,32,80,1120,3,10,19,139346`** | [**atari7800**] | **372x224** | **1860x1120**| **5x** | **1120p** | **1860 (5x)** |
+**`video_mode=1860,48,32,80,1344,3,10,26,167288`** | [**atari7800**] | **372x224** | **1860x1344**| **6x / 5x (Hor.)** | **1344p** | **1860 (5x)** |
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1208,48,32,80,1008,3,10,16,85117`** | [**atari7800**] | **372x224**| **1208x1008** | **4.5x / 3.25x (Hor.)** | **1008p** | **1280 (3.25x)** | **3** |
+**`video_mode=1208,72,128,200,1008,3,10,25,100918`** | [**atari7800**] | **372x224**| **1208x1008** | **4.5x / 3.25x (Hor.)** | **1008p** | **1280 (3.25x)** | **3** | **1** |
+
+</blockquote>
 
 ## <summary1><b>Atari Lynx</b></summary1>
 
@@ -688,10 +770,10 @@ _<summary><b>Bandai Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
-**`video_mode=1568,48,32,80,1008,3,10,24,108346`** | [**wonderswan**] | **224x144** | **1568x1008** | **7x** | **1008p** | **1568 (7x)**
-**`video_mode=1792,48,32,80,1152,3,10,29,139841`** | [**wonderswan**] | **224x144** | **1792x1152** | **8x** | **1152p** | **1792 (8x)**
-**`video_mode=2016,48,32,80,1296,3,10,34,175342`** | [**wonderswan**] | **224x144** | **2016x1296** | **9x** | **1296p** | **2016 (9x)**
-**`video_mode=2016,48,32,80,1440,3,10,39,194796`** | [**wonderswan**] | **224x144** | **2016x1440** | **10x / 9x (Hor.)** | **1440p** | **2016 (9x)**
+**`video_mode=1568,48,32,80,1008,3,10,24,108346`** | [**wonderswan**] | **224x144** | **1568x1008** | **7x** | **1008p** | **1568 (7x)** |
+**`video_mode=1792,48,32,80,1152,3,10,29,139841`** | [**wonderswan**] | **224x144** | **1792x1152** | **8x** | **1152p** | **1792 (8x)** |
+**`video_mode=2016,48,32,80,1296,3,10,34,175342`** | [**wonderswan**] | **224x144** | **2016x1296** | **9x** | **1296p** | **2016 (9x)** |
+**`video_mode=2016,48,32,80,1440,3,10,39,194796`** | [**wonderswan**] | **224x144** | **2016x1440** | **10x / 9x (Hor.)** | **1440p** | **2016 (9x)** |
 
 ### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
 
