@@ -198,8 +198,8 @@ _<summary><b>Capcom Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
-**`video_mode=1232,48,32,80,1020,3,10,15,87529`** | [**jtrumble**] | **256x224**| **1232x1020** | **4.25x** | **1020p** | **1232 (3.5x)** | **2** |
-**`video_mode=1232,72,128,200,1020,3,10,24,103501`** | [**jtrumble**] | **256x224**| **1232x1020** | **4.25x** | **1020p** | **1232 (3.5x)** | **2** | **1** |
+**`video_mode=1232,48,32,80,1020,3,10,15,87529`** | [**jtrumble**] | **352x240**| **1232x1020** | **4.25x** | **1020p** | **1232 (3.5x)** | **3** |
+**`video_mode=1232,72,128,200,1020,3,10,24,103501`** | [**jtrumble**] | **352x240**| **1232x1020** | **4.25x** | **1020p** | **1232 (3.5x)** | **3** | **1** |
 
 ## <summary1><b>Capcom Z80 (SectionZ) Hardware</b></summary1>
 
@@ -223,8 +223,8 @@ _<summary><b>Capcom Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
-**`video_mode=1280,48,32,80,1020,3,10,14,90461`** | [**jtsz**] | **256x224**| **1280x1020** | **4.25x** | **1020p** | **1280 (5x)** | **3**
-**`video_mode=1280,80,128,208,1020,3,10,23,107459`** | [**jtsz**] | **256x224**| **1280x1020** | **4.25x** | **1020p** | **1280 (5x)** | **3** | **1** |
+**`video_mode=1280,48,32,80,1020,3,10,14,90461`** | [**jtsz**] | **256x240**| **1280x1020** | **4.25x** | **1020p** | **1280 (5x)** | **3**
+**`video_mode=1280,80,128,208,1020,3,10,23,107459`** | [**jtsz**] | **256x240**| **1280x1020** | **4.25x** | **1020p** | **1280 (5x)** | **3** | **1** |
 
 ----
 
@@ -762,6 +762,8 @@ _<summary><b>Atari Hardware</b></summary>_
 ### <summary2><b>Hardware Information for:</b></summary2>
 
 ![Atari_7800_Logo](https://user-images.githubusercontent.com/32810066/129828819-21ef9138-42e9-4613-b664-a2e72855eb2a.png)
+
+<b>The Atari 7800 hardware also utilizes a low-res pixel clock (3.58 MHz). The timings provided below cover all the resolution switching for an HDMI display.</b>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
