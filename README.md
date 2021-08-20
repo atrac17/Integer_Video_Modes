@@ -657,8 +657,6 @@ _<summary><b>Sega Hardware</b></summary>_
 
 ![26](https://user-images.githubusercontent.com/32810066/126917773-d9bc0d25-72c6-468e-a0e6-b19aa34a0939.png)
 
-<b>Vertical titles displayed on a horizontal screen will have a different display aspect ratio. You may need to adjust your displays aspect ratio from 4:3, Original, or Zoom 1 to 16:9 depending on the model and display type.</b>
-
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
 **5.00 MHz** | **60.0952000 Hz NTSC** | **256x224**| **27:22** | **2560:1827** | **280:261** |
