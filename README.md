@@ -996,8 +996,8 @@ _<summary><b>Nintendo Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
-**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**snes**] | **256x240** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** |
-**`video_mode=1280,80,128,208,1008,3,10,25,106441`** | [**snes**] | **256x240** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** | **1** |
+**`video_mode=1280,48,32,80,1008,3,10,16,89597`** | [**snes**] | **256x224** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** |
+**`video_mode=1280,80,128,208,1008,3,10,25,106441`** | [**snes**] | **256x224** | **1280x1008** | **4.5x** | **1008p** | **1280 (5x)** | **2** | **1** |
 
 </blockquote>
 
