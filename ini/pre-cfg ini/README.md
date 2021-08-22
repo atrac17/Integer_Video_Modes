@@ -16,7 +16,7 @@ This pre-configured .ini file **is not setup to do dual display** for an analog 
 
 The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
 
-The defualt setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
+The default setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
 
 _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
@@ -53,7 +53,7 @@ This pre-configured .ini file **is not setup to do dual display** for an analog 
 
 The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
 
-The defualt setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
+The default setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
 
 _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
@@ -90,7 +90,7 @@ This pre-configured .ini file **is not setup to do dual display** for an analog 
 
 The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
 
-The defualt setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
+The default setting for this .ini file are vscale_mode=1 and vsync_adjust=2.
 
 _<b>For Nintendo Famicom / Nintendo Entertainment System set the following:</b>_
 
