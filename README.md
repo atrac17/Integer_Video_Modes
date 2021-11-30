@@ -23,7 +23,7 @@
 - But like everything in life, there are some catches:
   - Not all displays are compatible with all non-standard video modes.  Your display may not accept all or any of them.  I have no control over this.
   - Displays that support Variable Refresh Rate (VRR), G-Sync, or FreeSync are more likely to be compatible.
-  - As you run different cores/content, the MiSTer framework can automatically change only the horizontal resolution.  It cannot automatically change the vertical resolution, so must define our own custom video mode for each specific core/content.
+  - As you run different cores/content, the MiSTer framework can automatically change only the horizontal resolution.  It cannot automatically change the vertical resolution, so we must define our own custom video mode for each specific core/content.
 
 - Please read all provided information thoroughly.  See the F.A.Q. for further assistance.
 
