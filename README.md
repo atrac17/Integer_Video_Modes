@@ -3,13 +3,30 @@
 
 # Repository Information
 
-- This repository will house custom video modes for FPGA cores. This project has been ongoing for over seven months. I'd like to take a moment to thank those who have supported it. 
+- This repository contains custom video modes for use with MiSTer FPGA cores.
 
-- These settings are not universal for every display, they enhance the overall experience and target variable refresh rate, g-sync, or freesync displays. Your display may not accept them, I have no control over this. Please read the information provided thoroughly. See the F.A.Q for further assistance.
+- This project has been ongoing for over seven months. I'd like to take a moment to thank those who have supported it.
 
-- The custom video modes provided will integer scale the default resolution of the FPGA core. This will enhance filters and display the image bezel to bezel vertically if applied properly. 
-  
-  The scale function available in the MiSTerFPGA framework is limited to adjusting the horizontal resolution only based upon an algorithm. Though this may be similar, custom video modes also adjust the vertical resolution.
+## What are these for?
+
+- MiSTer provides only two standard ways to scale the image up to a high-resolution modern display, and each way has its problems:
+
+  - Integer scaling yields pixel-perfect upscaling, but it also means the image can't fill your display's full height.
+  - Non-integer scaling fills the screen height, but it introduces very annoying artifacts (uneven scanlines, "shimmering" during vertical scrolling, etc).
+
+- Using a non-standard video mode effectively produces hybrid scaling, to give you the best of both worlds:
+
+  - MiSTer integer-scales the content up to the full height of our custom video mode (defined as a perfect integer size of the original content), to feed the display the largest perfect image possible.
+  - The display non-integer-scales that image the rest of the way up to fill the entire screen height.
+  - The amount of non-integer scaling is minimized, so the annoying scaling imperfections are drastically reduced, to the point of being unnoticeable.
+
+- But like everything in life, there are some catches:
+  - Not all displays are compatible with all non-standard video modes.  Your display may not accept all or any of them.  I have no control over this.
+  - Displays that support Variable Refresh Rate (VRR), G-Sync, or FreeSync are more likely to be compatible.
+  - As you run different cores/content, the MiSTer framework can automatically change only the horizontal resolution.  It cannot automatically change the vertical resolution, so must define our own custom video mode for each specific core/content.
+
+- Please read all provided information thoroughly.  See the F.A.Q. for further assistance.
+
 
 <details>
 
@@ -17,11 +34,11 @@ _<summary><b>Detailed Information</b></summary>_
 
 <blockquote>
 
-- These custom video modes are designed for 4k televisions, 2048x1536p (iPad Displays), 1440p monitors, and 1080p monitors that upscale the provided resolution from the DE-10 Nano. 
+- These custom video modes are designed for 4k televisions, 2048x1536p (iPad Displays), 1440p monitors, and 1080p monitors that upscale the provided resolution from the DE-10 Nano.
 
-- Also provided are custom video modes for 1280x1024 LCD displays and common VGA CRT monitors. Again, ensure to read the information provided thoroughly or utilize one the provided MiSTer.ini files.
+- Also provided are custom video modes for 1280x1024 LCD displays and common VGA CRT monitors. Again, be sure to read the provided information thoroughly or utilize one of the provided MiSTer.ini files.
 
-- If an aspect ratio is not displayed properly, adjust your television or monitor to original or 4:3 aspect ratio. For iPad or 1280x1024 displays, you will always set Aspect Ratio: Full Screen in the MiSTer OSD.
+- If an aspect ratio is not displayed properly, adjust your television or monitor to "Original" or 4:3 aspect ratio. For iPad or 1280x1024 displays, you will always set "Aspect Ratio: Full Screen" in the MiSTer OSD.
 
 </blockquote>
 
@@ -37,7 +54,7 @@ _<summary><b>Repository Notes</b></summary>_
 
 - Due to time constraints, I will periodically update the video modes available for FPGA cores from their respective repositories once this enters a public release.
 
-- The F.A.Q for this repository is currently a work in progress, just like the repository itself. This is currently a pre-release and currently setup to ease the burden on the end user. While this may be work, the end results speak for themselves.
+- The F.A.Q. for this repository is currently a work in progress, just like the repository itself. This is currently a pre-release and currently setup to ease the burden on the end user. While this may be work, the end results speak for themselves.
 
 </blockquote>
 
@@ -65,11 +82,27 @@ _<summary><b>2048x1536 QXGA 9.7" Displays</b></summary>_
 
 <details>
 
+_<summary><b>4K Televisions</b></summary>_
+
+<blockquote>
+
+- <summary><b>Compatibility information:</b></summary>
+
+|Display Model|Resolution (Scaled)|VRR Capable|Notes
+|--|--|--|--|
+**Vizio P65QX-H1** | **4x to 6x** | **Yes** | Accepts custom resolutions, but only stable with `vsync_adjust=0` |
+
+</details>
+
+
+
+<details>
+
 _<summary><b>Compatible Display List Notes</b></summary>_
 
 <blockquote>
 
-The Compatible Display List for this repository is currently a work in progress, just like the repository itself. This is currently a pre-release and more information regarding compatible displays will be added in the future. 
+The Compatible Display List for this repository is currently a work in progress, just like the repository itself. This is currently a pre-release and more information regarding compatible displays will be added in the future.
 
 If you have a display that correctly resolves these custom video modes, please create an issue within the repository and provide the compatible resolutions, make, model, firmware (where applicable), and general information on how you resolve the proper aspect ratio on the display and I will add it to the repository.
 
@@ -89,7 +122,7 @@ If you have a display that correctly resolves these custom video modes, please c
 
 - The default display resolution for the MiSTer.ini should always be 720p when utilizing custom video modes.
 
-- The default MiSTer.ini settings for each core will be vscale_mode=1 and vsync_adjust=2. Integer Step-Scaled Video Modes will specify the vscale_mode below.
+- The default MiSTer.ini settings for each core will be `vscale_mode=1` and `vsync_adjust=2`. Integer Step-Scaled Video Modes will specify the vscale_mode below.
 
 - Due to the horizontal limitation of 2048 within cores, some video modes will utilize -1x for the horizontal scale. This will not affect the aspect ratio on your display if it's scaler takes advantage of the video mode provided. This is not a universal catch all. These are custom and display dependent.
 
