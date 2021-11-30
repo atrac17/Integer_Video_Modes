@@ -1,13 +1,20 @@
 
 ![logo](https://user-images.githubusercontent.com/32810066/128452226-e23e1552-abb7-434b-92e1-b4b35a23a5af.png)
 
-# Repository Information
+# Repository information
 
-- This repository contains custom video modes for use with MiSTer FPGA cores.
+- This pre-release repository contains custom video modes for use with MiSTer FPGA cores.
 
 - This project has been ongoing for over seven months. I'd like to take a moment to thank those who have supported it.
 
-## What are these for?
+- In the future, I will provide compatibility modes for the custom video modes below. This may resolve the issues with certain Samsung and Sony displays.
+
+- Due to time constraints, I will periodically update the video modes available for FPGA cores from their respective repositories once this enters a public release.
+
+- Like the rest of this repository, all of this documentation is a work in progress.  Feel free to contribute to documentation improvements by sending me a pull request.
+
+
+# What are these for?
 
 - MiSTer provides only two standard ways to scale the image up to a high-resolution modern display, and each way has its problems:
 
@@ -28,47 +35,24 @@
 - Please read all provided information thoroughly.  See the F.A.Q. for further assistance.
 
 
-<details>
+# What is provided?
 
-_<summary><b>Detailed Information</b></summary>_
+- Information about custom video modes:
+  - Modes designed for 4k televisions, 2048x1536p (iPad Displays), 1440p monitors, and 1080p monitors that upscale the provided resolution from the DE-10 Nano.
+  - Modes designed for 1280x1024 LCD displays.
+  - Modes designed for common VGA CRT monitors.
 
-<blockquote>
+- Preconfigured MiSTer.ini files containing sensibly-grouped sets of the aforementioned custom video modes.
 
-- These custom video modes are designed for 4k televisions, 2048x1536p (iPad Displays), 1440p monitors, and 1080p monitors that upscale the provided resolution from the DE-10 Nano.
+# How do I get them?
 
-- Also provided are custom video modes for 1280x1024 LCD displays and common VGA CRT monitors. Again, be sure to read the provided information thoroughly or utilize one of the provided MiSTer.ini files.
-
-- If an aspect ratio is not displayed properly, adjust your television or monitor to "Original" or 4:3 aspect ratio. For iPad or 1280x1024 displays, you will always set "Aspect Ratio: Full Screen" in the MiSTer OSD.
-
-</blockquote>
-
-</details>
-
-<details>
-
-_<summary><b>Repository Notes</b></summary>_
-
-<blockquote>
-
-- In the future, I will provide compatibility modes for the custom video modes below. This may resolve the issues with certain Samsung and Sony displays.
-
-- Due to time constraints, I will periodically update the video modes available for FPGA cores from their respective repositories once this enters a public release.
-
-- The F.A.Q. for this repository is currently a work in progress, just like the repository itself. This is currently a pre-release and currently setup to ease the burden on the end user. While this may be work, the end results speak for themselves.
-
-</blockquote>
-
-</details>
-
-# Updater Information
-
-W.I.P
+These custom modelines are not yet retrieved by the popular `update_all.sh` updater script.  For now, you'll need to manually download the .ini files from this repo or using `git clone` to make a local copy of it.
 
 # Compatible Display List
 
 <details>
 
-_<summary><b>2048x1536 QXGA 9.7" Displays</b></summary>_
+<summary><b>2048x1536 QXGA 9.7" Displays</b></summary>
 
 <blockquote>
 
@@ -82,7 +66,7 @@ _<summary><b>2048x1536 QXGA 9.7" Displays</b></summary>_
 
 <details>
 
-_<summary><b>4K Televisions</b></summary>_
+<summary><b>4K Televisions</b></summary>
 
 <blockquote>
 
@@ -98,7 +82,7 @@ _<summary><b>4K Televisions</b></summary>_
 
 <details>
 
-_<summary><b>Compatible Display List Notes</b></summary>_
+<summary><b>Compatible Display List Notes</b></summary>
 
 <blockquote>
 
@@ -1274,9 +1258,7 @@ _<summary><b>SNK Hardware</b></summary>_
 
 </details>
 
-----
-
-### <summary1><b>Custom Aspect Ratios:</b></summary1>
+### <summary1>Custom Aspect Ratios:</summary1>
 
 <details>
 
@@ -1329,13 +1311,25 @@ _<summary><b>Secondary Custom Aspect Ratios</b></summary>_
 
 </details>
 
-----
+</details>
+
+# F.A.Q.
+
+<details>
+
+_<summary><b>Q: Why does the OSD menu appear squished or stretched when using custom modes?</b></summary>_
+
+This is by design and nothing to worry about.
 
 </details>
 
-# F.A.Q
+<details>
 
-W.I.P
+_<summary><b>Q: Why does the core image appear squished or stretched?</b></summary>_
+
+Adjust your display to use `Original` or `4:3` aspect ratio. For iPad or 1280x1024 displays, set `Aspect Ratio: Full Screen` in the MiSTer OSD.
+
+</details>
 
 # License
 
