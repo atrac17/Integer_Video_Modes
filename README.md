@@ -1,4 +1,5 @@
 
+
 ![logo](https://user-images.githubusercontent.com/32810066/128452226-e23e1552-abb7-434b-92e1-b4b35a23a5af.png)
 
 # Repository information
@@ -333,6 +334,41 @@ _<summary><b>Capcom Hardware</b></summary>_
 
 <details>
 
+_<summary><b>Data East Hardware</b></summary>_
+
+## <summary1><b>Data East MEC-M1 Hardware</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![DECO](https://user-images.githubusercontent.com/32810066/154137678-05590233-6159-4b8e-b007-d119c06c5d6a.png)
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.000 MHz** | **57.444853 Hz NTSC** | **256x240**| **16:15** | **1024:939** |
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1024,48,32,80,960,3,10,14,70116`** | [**jtninja**] [**jtcop**] | **256x240**| **1024x960** | **4x** | **960p** | **1 (4x)** |
+**`video_mode=1280,48,32,80,1200,3,10,20,106531`** | [**jtninja**] [**jtcop**] | **256x240**| **1280x1200** | **5x** | **1200p** | **1 (5x)** |
+**`video_mode=1536,48,32,80,1440,3,10,27,150605`** | [**jtninja**] [**jtcop**] | **256x240**| **1536x1440** | **6x** | **1440p** | **1 (6x)** |
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**jtninja**] [**jtcop**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** |
+**`video_mode=1280,80,128,208,1020,3,10,24,107560`** | [**jtninja**] [**jtcop**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** | **1** |
+
+</blockquote>
+
+</details>
+
+<details>
+
 _<summary><b>Konami Hardware</b></summary>_
 
 ## <summary1><b>Konami 007121 (Contra Based) Hardware</b></summary1>
@@ -360,7 +396,7 @@ _<summary><b>Konami Hardware</b></summary>_
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
 **`video_mode=1260,48,32,80,1020,3,10,16,89123`** | [**jtcontra**] [**jtcomsc**] [**jtlabrun**] | **280x240**| **1260x1024** | **4.25** | **1020p** | **1260 (4.5x)** | **3** |
-**`video_mode=1256,80,128,208,1020,3,10,25,106139`** | [**jtcontra**] [**jtcomsc**] [**jtlabrun**] | **280x240**| **1260x1024** | **4.25** | **1020p** | **1260 (4.5x)** | **3** | **1** |
+**`video_mode=1260,80,128,208,1020,3,10,25,106139`** | [**jtcontra**] [**jtcomsc**] [**jtlabrun**] | **280x240**| **1260x1024** | **4.25** | **1020p** | **1260 (4.5x)** | **3** | **1** |
 
 </blockquote>
 
