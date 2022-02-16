@@ -365,6 +365,35 @@ _<summary><b>Data East Hardware</b></summary>_
 
 </blockquote>
 
+## <summary1><b>Data East MEC-M1 (Midnight Resistance Based) Hardware</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![DECO2](https://user-images.githubusercontent.com/32810066/154369296-a27d5a4d-910c-4705-9f56-157f2c1383ed.png)
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**6.000 MHz** | **57.444853 Hz NTSC** | **256x240**| **16:15** | **1024:939** |
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1024,48,32,80,960,3,10,14,70116`** | [**jtmidres**] | **256x240**| **1024x960** | **4x** | **960p** | **1 (4x)** |
+**`video_mode=1280,48,32,80,1200,3,10,20,106531`** | [**jtmidres**] | **256x240**| **1280x1200** | **5x** | **1200p** | **1 (5x)** |
+**`video_mode=1536,48,32,80,1440,3,10,27,150605`** | [**jtmidres**] | **256x240**| **1536x1440** | **6x** | **1440p** | **1 (6x)** |
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**jtmidres**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** |
+**`video_mode=1280,80,128,208,1020,3,10,24,107560`** | [**jtmidres**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** | **1** |
+
+</blockquote>
+
 </details>
 
 <details>
