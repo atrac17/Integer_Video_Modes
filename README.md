@@ -1244,6 +1244,47 @@ _<summary><b>SNK Hardware</b></summary>_
 
 </details>
 
+<details>
+
+_<summary><b>Sony Hardware</b></summary>_
+
+## <summary1><b>Sony PlayStation</b></summary1>
+
+<blockquote>
+
+### <summary2><b>Hardware Information for:</b></summary2>
+
+![psx](https://user-images.githubusercontent.com/32810066/154302550-5a675470-a371-4d13-bbe3-9535aea30110.png)
+
+|Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
+|--|--|--|--|--|
+**5.322240 MHz** | **59.8261054534819 Hz NTSC** | **256x240**| **56:45** | **512:417**
+**6.652800 MHz** | **59.8261054534819 Hz NTSC** | **320x240**| **4:3** | **1280:1041**
+**7.603200 MHz** | **59.8261054534819 Hz NTSC** | **368x240**| **23:18** | **368:297**
+**10.644480 MHz** | **59.8261054534819 Hz NTSC** | **512x240**| **16:15** | **2048:1665**
+**13.305600 MHz** | **59.8261054534819 Hz NTSC** | **640x480i**| **4:3** | **1280:1041**
+
+### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
+|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,960,3,4,21,85363`** | [**psx**] | **320x240**| **1280x960** | **4x** | **960p** | **1280 (4x)**
+**`video_mode=1600,48,32,80,1200,3,4,27,130310`** | [**psx**] | **320x240**| **1536x1200** | **5x** | **1200p** | **1536 (5x)**
+**`video_mode=1920,48,32,80,1440,3,4,34,184829`** | [**psx**] | **320x240**| **1920x1440** | **6x** | **1440p** | **1920 (6x)**
+
+### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
+
+|Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
+|--|--|--|--|--|--|--|--|--|
+**`video_mode=1280,48,32,80,1440,3,10,28,127958`** | [**psx**] | **320x240** | **1280x1020** | **4.5x** | **1020p** | **1280 (4x)** | **3** |
+**`video_mode=1280,96,136,232,1440,3,10,40,156228`** | [**psx**] | **320x240** | **1280x1020** | **4.5x** | **1020p** | **1280 (4x)** | **3** | **1** |
+
+</blockquote>
+
+</details>
+
+</details>
+
 </details>
 
 </details>
