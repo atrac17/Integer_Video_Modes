@@ -1,5 +1,4 @@
 
-
 ![logo](https://user-images.githubusercontent.com/32810066/128452226-e23e1552-abb7-434b-92e1-b4b35a23a5af.png)
 
 # Repository information
@@ -88,6 +87,26 @@ These custom modelines are not yet retrieved by the popular `update_all.sh` upda
 |Display Model|Resolution (Scaled)|VRR Capable|Notes
 |--|--|--|--|
 **Vizio P65QX-H1** | **4x to 6x** | **Yes** | Accepts custom resolutions, but only stable with `vsync_adjust=0` |
+
+</details>
+
+<details>
+
+<summary><b>1440p Monitors</b></summary>
+
+<blockquote>
+
+- <summary><b>Compatibility information:</b></summary>
+
+|Display Model|Panel Type|Resolution (Scaled)|VRR Capable|Notes
+|--|--|--|--|--|
+**LG 32QN600-B** | **IPS** | **4x to 6x** | **Yes** | Limited to 75Hz - support up to WonderSwan |
+**LG 32QN55T-B** | **IPS** | **4x to 6x** | **Yes** | Limited to 75Hz - support up to WonderSwan |
+**LG 32GN600-B** | **VA** | **4x to 6x** | **Yes** | |
+**LG 32GN650-B** | **VA** | **4x to 6x** | **Yes** | |
+**LG 32GK650F-B** | **VA** | **4x to 6x** | **Yes** | |
+**LG 32GN63T-B** | **VA** | **4x to 6x** | **Yes** | Recommended Monitor (atrac17) |
+**LG 27GN800-B** | **IPS** | **4x to 6x** | **Yes** | Recommended Monitor (atrac17) |
 
 </details>
 
