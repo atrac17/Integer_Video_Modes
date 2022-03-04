@@ -808,13 +808,13 @@ _<summary><b>Toaplan Hardware</b></summary>_
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
 **`video_mode=1280,48,32,80,960,3,4,20,85277`** | [**zerowing**] | **320x240**| **1280x960** | **4x** | **960p** | **1280 (4x)**
-**`video_mode=1600,48,32,80,1200,3,4,26,130205`** | [**zerowing**] | **320x240**| **1536x1200** | **5x** | **1200p** | **1536 (5x)**
+**`video_mode=1600,48,32,80,1200,3,4,26,130205`** | [**zerowing**] | **320x240**| **1600x1200** | **5x** | **1200p** | **1536 (5x)**
 **`video_mode=1920,48,32,80,1440,3,4,33,184704`** | [**zerowing**] | **320x240**| **1920x1440** | **6x** | **1440p** | **1920 (6x)**
 
 |Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
 **`video_mode=1280,48,32,80,960,3,4,19,85190`** | [**outzone***] | **320x240**| **1280x960** | **4x** | **960p** | **1280 (4x)**
-**`video_mode=1600,48,32,80,1200,3,4,25,130099`** | [**outzone***] | **320x240**| **1536x1200** | **5x** | **1200p** | **1536 (5x)**
+**`video_mode=1600,48,32,80,1200,3,4,25,130099`** | [**outzone***] | **320x240**| **1600x1200** | **5x** | **1200p** | **1536 (5x)**
 **`video_mode=1920,48,32,80,1440,3,4,31,184454`** | [**outzone***] | **320x240**| **1920x1440** | **6x** | **1440p** | **1920 (6x)**
 
 ### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
