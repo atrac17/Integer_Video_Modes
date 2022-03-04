@@ -800,8 +800,8 @@ _<summary><b>Toaplan Hardware</b></summary>_
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
-**7.00 MHz** | **55.16 Hz** | **256x240**| **56:45** | **256:219**
-**7.00 MHz** | **57.6 Hz** | **320x240**| **4:3** | **256:219**
+**7.00 MHz** | **55.16 Hz** | **320x240**| **4:3** | **256:219**
+**7.00 MHz** | **57.55 Hz** | **320x240**| **4:3** | **256:219**
 
 ### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
 
