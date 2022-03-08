@@ -1419,7 +1419,7 @@ Adjust your display to use `Original` or `4:3` aspect ratio. For iPad or 1280x10
 
 # License
 
-This repository and project is licensed under the GNU General Public License v3.0. If you utilize the information elsewhere, you must reference this source repository and provide credit to the author(s).
+This repository and project is licensed under the GNU General Public License v3.0.
 
 # Support
 
