@@ -400,16 +400,16 @@ _<summary><b>Data East Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
-**`video_mode=1024,48,32,80,960,3,10,14,70116`** | [**jtmidres**] | **256x240**| **1024x960** | **4x** | **960p** | **1 (4x)** |
-**`video_mode=1280,48,32,80,1200,3,10,20,106531`** | [**jtmidres**] | **256x240**| **1280x1200** | **5x** | **1200p** | **1 (5x)** |
-**`video_mode=1536,48,32,80,1440,3,10,27,150605`** | [**jtmidres**] | **256x240**| **1536x1440** | **6x** | **1440p** | **1 (6x)** |
+**`video_mode=1024,48,32,80,960,3,10,14,70116`** | [**jtmidres**] [**jtslyspy**] | **256x240**| **1024x960** | **4x** | **960p** | **1 (4x)** |
+**`video_mode=1280,48,32,80,1200,3,10,20,106531`** | [**jtmidres**] [**jtslyspy**] | **256x240**| **1280x1200** | **5x** | **1200p** | **1 (5x)** |
+**`video_mode=1536,48,32,80,1440,3,10,27,150605`** | [**jtmidres**] [**jtslyspy**] | **256x240**| **1536x1440** | **6x** | **1440p** | **1 (6x)** |
 
 ### <summary4><b>Integer Step-Scaled Custom Video Modes:</b></summary4>
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
-**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**jtmidres**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** |
-**`video_mode=1280,80,128,208,1020,3,10,24,107560`** | [**jtmidres**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** | **1** |
+**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**jtmidres**] [**jtslyspy**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** |
+**`video_mode=1280,80,128,208,1020,3,10,24,107560`** | [**jtmidres**] [**jtslyspy**] | **256x240**| **1260x1020** | **1** | **1020p** | **1 (4.5x)** | **3** | **1** |
 
 </blockquote>
 
