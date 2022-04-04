@@ -807,9 +807,9 @@ _<summary><b>Toaplan Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
-**`video_mode=1280,48,32,80,960,3,4,20,85277`** | [**toaplan1**] | **320x240**| **1280x960** | **4x** | **960p** | **1280 (4x)**
-**`video_mode=1600,48,32,80,1200,3,4,26,130205`** | [**toaplan1**] | **320x240**| **1600x1200** | **5x** | **1200p** | **1536 (5x)**
-**`video_mode=1920,48,32,80,1440,3,4,33,184704`** | [**toaplan1**] | **320x240**| **1920x1440** | **6x** | **1440p** | **1920 (6x)**
+**`video_mode=1280,48,32,80,960,3,4,20,85277`** | [**toaplan v1**] | **320x240**| **1280x960** | **4x** | **960p** | **1280 (4x)**
+**`video_mode=1600,48,32,80,1200,3,4,26,130205`** | [**toaplan v1**] | **320x240**| **1600x1200** | **5x** | **1200p** | **1536 (5x)**
+**`video_mode=1920,48,32,80,1440,3,4,33,184704`** | [**toaplan v1**] | **320x240**| **1920x1440** | **6x** | **1440p** | **1920 (6x)**
 
 |Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|
 |--|--|--|--|--|--|--|
@@ -821,8 +821,8 @@ _<summary><b>Toaplan Hardware</b></summary>_
 
 |Primary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
-**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**toaplan1**] | **320x240** | **1280x1020** | **4.5x** | **1020p** | **1280 (4x)** | **3** |
-**`video_mode=1280,80,128,208,1020,3,10,24,107560`** | [**toaplan1**] | **320x240** | **1280x1020** | **4.5x** | **1020p** | **1280 (4x)** | **3** | **1** |
+**`video_mode=1280,48,32,80,1020,3,10,15,90547`** | [**toaplan v1**] | **320x240** | **1280x1020** | **4.5x** | **1020p** | **1280 (4x)** | **3** |
+**`video_mode=1280,80,128,208,1020,3,10,24,107560`** | [**toaplan v1**] | **320x240** | **1280x1020** | **4.5x** | **1020p** | **1280 (4x)** | **3** | **1** |
 
 |Secondary Modelines NTSC|Core|Resolution (Visible)|Resolution (Scaled)|Integer (Scaled)|Resolution (Vert.)|Resolution (Hor.)|vscale_mode|vga_scaler|
 |--|--|--|--|--|--|--|--|--|
