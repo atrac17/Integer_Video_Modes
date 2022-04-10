@@ -575,12 +575,12 @@ _<summary><b>Cave Hardware</b></summary>_
 
 ![23](https://user-images.githubusercontent.com/32810066/126911397-e54b786a-39ff-4200-8fdb-8750d1b40976.png)
 
-<b>The Cave 68000 core does not support custom aspect ratios at this time. The only available options are 4:3 and 16:9; these are [hardcoded](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer/blob/5f2000bb8bb9aeec6760579bd5667414aecf99f0/quartus/cave.sv#L164) to the core.</b>
+<b>The Cave 68000 core does not support custom aspect ratios at this time. The only available options are 4:3 and 16:9; these are [hardcoded](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer/blob/5f2000bb8bb9aeec6760579bd5667414aecf99f0/quartus/cave.sv#L164) to the core. I have submitted a pull request with the current framework handling for aspect rations. Timings for modelines currently taken from `cave.cpp`.</b>
 
 |Pixel Clock|Refresh Rate|Resolution (Visible)|Pixel Aspect Ratio|Display Aspect Ratio|
 |--|--|--|--|--|
-**7.00 MHz** | **57.4200000 Hz NTSC** | **320x240**| **135:154** | **256:219** |
-**8.00 MHz** | **57.4200000 Hz NTSC** | **384x240**| **135:176** | **1280:1251** |
+**7.00 MHz** | **57.550645 Hz NTSC** | **320x240**| **10:9** | **256:219** |
+**8.00 MHz** | **57.550645 Hz NTSC** | **384x240**| **4:3** | **512:417** |
 
 ### <summary3><b>Integer Scale Custom Video Modes:</b></summary3>
 
