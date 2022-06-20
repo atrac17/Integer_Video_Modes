@@ -3,8 +3,8 @@
 
 <br>
 
-Integer scaled modelines based on the information below. The visible resolution may coincide with actual hardware or the FPGA implementation (_i.e. PC Engine, Sony PSX_). Modline timings based off the vertical refresh rate (calculated pxlclk/htotal/vtotal) and visible resolution. If a modeline for an console/handheld core is not provided below, it may be added in the future.
-
+Integer scaled modelines based on the information below. The visible resolution may coincide with actual hardware or the FPGA implementation (_i.e. PC Engine, Sony PSX_). Modline timings based off the vertical refresh rate (calculated pxlclk/htotal/vtotal) and visible resolution. If a modeline for an console/handheld core is not provided below, it may be added in the future.<br><br>
+If a core has `Dual Mode=Yes`, then there will only be one primary video mode available as the core supports multiple systems for one video mode. For custom aspect ratios, the first will be for the primary hardware and the other for the secondary hardware.<br><br>
 <br>
 
 | Title | Pixel Clock | Refresh Rate | Resolution (Visible) |
