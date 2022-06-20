@@ -56,12 +56,6 @@ The visible resolution in this core does not correspond with the actual hardware
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1208,48,32,80,1008,3,10,16,85007`** | **4.5x** | **1280x1008** | **3.25x** | **3** |
 
-<br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1208,72,128,200,1008,3,10,25,100787`** | **4.5x** | **1280x1008** | **3.25x** | **3** | **1** |
-
 ## Atari Lynx
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
@@ -83,12 +77,6 @@ The visible resolution in this core does not correspond with the actual hardware
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1020,3,7,19,90480`** | **10x** | **1280x1020** | **8x** |**1** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,136,216,1020,3,7,28,108494`** | **10x** | **1280x1020** | **8x** |**1** | **1** |
 
 <br>
 <br>
@@ -121,12 +109,6 @@ The WonderSwan hardware utilizes a refresh rate of 75 Hz. The video modes below 
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1232,48,32,80,1008,3,10,24,109784`** | **5.5x** | **1232x1008** | **7x** | **2** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1232,88,128,216,1008,3,10,34,132491`** | **5.5x** | **1232x1008** | **7x** | **2** | **1** |
 
 <br>
 <br>
@@ -162,12 +144,6 @@ The Display Aspect Ratio is calculated off resolutions 256x239 (5.37 to 7.16 pxl
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1260,48,32,80,982,3,10,15,85803`** | **4.25x** | **1260x982** | **3.5x** | **3** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1260,80,128,208,982,3,10,24,102174`** | **4.25x** | **1260x982** | **3.5x** | **3** | **1** |
 
 <br>
 <br>
@@ -212,12 +188,6 @@ _**Mask Edges: Auto**_
 **`video_mode=1280,48,32,80,1008,3,7,19,89744`** | **4.5x** | **1280x1008** | **5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,106615`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
-<br>
 <br>
 <br>
 
@@ -241,12 +211,6 @@ _**Mask Edges: Auto**_
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1008,3,10,16,89597`** | **7x** | **1280x1008** | **8x** | **1** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,10,25,106441`** | **7x** | **1280x1008** | **8x** | **1** | **1** |
 
 <br>
 <br>
@@ -281,12 +245,6 @@ _**Mask Edges: Auto**_
 **`video_mode=1280,48,32,80,1008,3,7,19,89744`** | **4.5x** | **1280x1008** | **5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,106615`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
-<br>
 <br>
 <br>
 
@@ -310,12 +268,6 @@ _**Mask Edges: Auto**_
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1256,48,32,80,1015,3,4,19,88195`** | **7.25x** | **1256x1015** | **5.25x** |**3** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1256,80,128,208,1015,3,7,28,105157`** | **7.25x** | **1256x1015** | **5.25x** | **3** | **1** |
 
 <br>
 <br>
@@ -349,12 +301,6 @@ The Sega Mark III / Sega Master System core also launches SG-1000 titles. There 
 **`video_mode=1280,48,32,80,1008,3,7,19,89481`** | **5.25x** | **1008p** | **5x** | **3** |
 
 <br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,106303`** | **5.25x** | **1008p** | **5x** | **3** | **1** |
-
-<br>
 <br>
 <br>
 
@@ -384,12 +330,6 @@ The recommended integer scale is a factor of two, this is a personal preference.
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1008,3,7,19,89481`** | **5.25x** | **1008p** | **5x** | **3** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,106303`** | **5.25x** | **1008p** | **5x** | **3** | **1** |
 
 <br>
 <br>
@@ -429,12 +369,6 @@ The **Mega CD** and **Super 32x** are additional addon hardware for the Mega Dri
 **`video_mode=1280,48,32,80,1008,3,7,19,89481`** | **4.5x** | **1280x1008** | **4x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,106303`** | **4.5x** | **1280x1008** | **4x** | **2** | **1** |
-
-<br>
 <br>
 <br>
 
@@ -466,12 +400,6 @@ The recommended integer scale is a factor of two, this is a personal preference.
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1008,3,10,16,89597`** | **5.25x** | **256x192** | **5x** | **3** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,10,25,106441`** | **5.25x** | **256x192** | **5x** | **3** | **1** |
 
 <br>
 <br>
@@ -520,12 +448,6 @@ To circumvent the horizontal change between games, I recommend using a 352px wid
 **`video_mode=1232,48,32,80,1008,3,10,16,86111`** | **4.5x** | **1232x1008** | **3.5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1232,72,128,200,1008,3,10,25,101834`** | **4.5x** | **1232x1008** | **3.5x** |**2** | **1** |
-
-<br>
 <br>
 <br>
 
@@ -550,12 +472,6 @@ To circumvent the horizontal change between games, I recommend using a 352px wid
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1008,3,7,19,88998`** | **4.5x** | **1280x1008** | **5x** | **2** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,105730`** | **4.5x** | **1280x1008** | **5x** |**2** | **1** |
 
 <br>
 <br>
@@ -591,10 +507,3 @@ To circumvent the horizontal change between games, I recommend using a 352px wid
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1008,3,7,19,88337`** | **4.75x** | **1280x1008** | **5x** | **3** |
 **`video_mode=1280,48,32,80,1020,3,7,19,90371`** | **4.25x** | **1280x1020** | **5x** | **3** |
-
-<br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,106133`** | **4.75x** | **1280x1008** | **5x** |**3** | **1** |
-**`video_mode=1280,80,136,216,1020,3,7,28,108363`** | **4.25x** | **1280x1020** | **5x** |**3** | **1** |

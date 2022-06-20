@@ -42,14 +42,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,104996`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
-<br>
-
-<br>
-
 ## Taito M68000 Based
 
 ### Rastan<br>Operation Wolf<br>Rainbow Islands: The Story of Bubble Bobble 2
@@ -73,11 +65,5 @@ Integer scaled modelines based on the information below. The visible resolution 
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1020,3,7,19,90447`** | **4.25x** | **1280x1020** | **4x** | **2** |
-
-<br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,136,216,1020,3,7,28,108454`** | **4.25x** | **1280x1008** | **4x** | **2** | **1** |
 
 <br>

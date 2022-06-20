@@ -11,7 +11,7 @@
 ## Video Mode Information:
 
   • Modes designed for monitors that upscale the provided resolution from the DE-10 Nano. This is known as "display scaling".<br><br>
-  • Modes designed for LCD displays and common VGA CRT monitors with a resolution of 1280x1024. LCD displays of this nature have a 5:4 aspect ratio.<br><br>
+  • Modes designed for LCD displays with a resolution of 1280x1024. Displays of this nature have a 5:4 aspect ratio and utilize step-integer scaling.<br><br>
   • Modes designed for 120 Hz capable displays to include VGA CRT monitors with BFI options from the DEXX-Pro or MiSTer framework running on the DE-10 Nano.<br><br>
   • Preconfigured MiSTer.ini / custom_scaler.txt files containing sensibly-grouped sets of video modes and timings.<br><br>
   • The `releases` directory houses pre-configured `.ini` / `.txt` files, ranging from 4x to 6x (or equivelant integer scaled resolutions).<br><br>

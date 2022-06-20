@@ -43,14 +43,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,48,1008,3,7,28,105395`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
-<br>
-
-<br>
-
 ## Nichibutsu M68000 Terra Cresta Based
 
 ### Terra Force<br>Kozure Ōkami<br>Armed F<br>
@@ -77,12 +69,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,128,1020,3,7,28,104479`** | **4.25x** | **1280x1008** | **4x** | **2** | **1** |
-
-<br>
-
 ## Nichibutsu M68000 Legion Spinner-87 Based
 
 ### Chouji Meikyuu Legion<br>Crazy Climber 2
@@ -106,11 +92,5 @@ Integer scaled modelines based on the information below. The visible resolution 
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1224,48,32,80,1008,3,10,16,84606`** | **4.5x** | **1224x1008** | **5x** | **2** |
-
-<br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1224,72,128,200,1008,3,10,24,100043`** | **4.5x** | **1224x1008** | **5x** | **2** | **1** |
 
 <br>

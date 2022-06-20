@@ -48,10 +48,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,105797`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
 ### サイドアーム / Hyper Dyne: Side Arms (Capcom Z80 Side Arms Based)
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
@@ -76,10 +72,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1248,80,128,208,1008,3,7,28,104600`** | **4.5x** | **1248x1008** | **3.25x** | **3** | **1** |
-
 ### Capcom Z80 Section Z Based<br><br>Aresu no Tsubasa / Legendary Wings<br>セクションZ / Section Z
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
@@ -101,10 +93,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 **`video_mode=1280,48,32,80,1008,3,7,17,82579`** | **4.5x** | **1280x1008** | **5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,25,98011`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
 
 ### Tatakai no Banka / Trojan (Capcom Z80 Section Z Based)
 
@@ -128,10 +116,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,26,99161`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
 ### Makaimura / Ghosts 'n Goblins (Capcom M6809 Based)
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
@@ -153,10 +137,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 **`video_mode=1280,48,32,80,1008,3,7,19,89055`** | **4.5x** | **1280x1008** | **5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,105797`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
 
 ### Rush & Crash / The Speed Rumbler (Capcom M6809 Based)
 
@@ -180,10 +160,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1236,72,128,200,1020,3,10,24,99336`** | **4.25x** | **1232x1020** | **3.5x** | **3** | **1** |
-
 ### Capcom M68000 Based<br><br>Top Secret / Bionic Commando<br>F-1 Dream<br>Tora e no Michi / Tiger Road
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
@@ -203,12 +179,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
 **`video_mode=1280,48,32,80,1008,3,7,19,89055`** | **4.5x** | **1280x1008** | **5x** | **2** |
-
-<br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,105797`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
 
 <br>
 
@@ -234,12 +204,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1248,80,128,208,1008,3,7,29,106336`** | **4.5x** | **1248x1008** | **3.25x** | **3** | **1** |
-
-<br>
-
 ### Capcom CP System Hardware (CPS-1, CPS-Dash, CPS-2)
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
@@ -261,7 +225,3 @@ Integer scaled modelines based on the information below. The visible resolution 
 **`video_mode=1248,48,32,80,1008,3,7,19,87065`** | **4.5x** | **1248x1008** | **3.25x** | **3** |
 
 <br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1248,80,128,208,1008,3,7,28,103787`** | **4.5x** | **1248x1008** | **3.25x** | **3** | **1** |

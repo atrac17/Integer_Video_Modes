@@ -3,8 +3,7 @@
 
 <br>
 
-Integer scaled modelines based on the information below. The visible resolution coincides with actual hardware and the pxlclk/htotal/vtotal have been measured. Modeline timings based off the vertical refresh rate (calculated pxlclk/htotal/vtotal) and visible resolution.<br><br>
-If a modeline for an arcade core is not provided below, it may be added in the future. However, it is defined in the `pre-configured .ini` for `4x to 6x` with the corresponding `video_mode=` for integer scaling utilizing `vscale_mode=6` and `vsync_adjust=1` for the cores reported refresh rate.
+Integer scaled modelines based on the information below. The visible resolution coincides with actual hardware and the pxlclk/htotal/vtotal have been measured. Modeline timings based off the vertical refresh rate (calculated pxlclk/htotal/vtotal) and visible resolution. If a modeline for an arcade core is not provided below, it may be added in the future.
 
 <br>
 

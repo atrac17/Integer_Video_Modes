@@ -45,12 +45,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,136,216,1008,3,7,28,108531`** | **4.5x** | **1280x1008** | **5x** | **2** | **1** |
-
-<br>
-
 ## Konami (6309 / 00712 Based) Hardware
 
 ### Contra<br>Boot Camp / Combat School<br>Fast Lane<br>Trick Trap / Labyrinth Runner<br>Flak Attack / MX5000
@@ -77,7 +71,3 @@ Integer scaled modelines based on the information below. The visible resolution 
 **`video_mode=1260,48,32,80,1008,3,7,19,87153`** | **4.5x** | **1260x1008** | **5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modelines (CRT Integer-Step Scaled) | Integer | Resolution| Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1260,80,128,208,1008,3,7,28,103757`** | **4.5x** | **1260x1008** | **5x** | **2** | **1** |

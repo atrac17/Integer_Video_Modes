@@ -36,7 +36,3 @@ Integer scaled modelines based on the information below. The visible resolution 
 **`video_mode=1280,48,32,80,1008,3,7,19,88380`** | **4.5x** | **1280x1008** | **5x** | **2** |
 
 <br>
-
-| CVT Standard NTSC Modeline (CRT Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode | vga_scaler |
-|:--|:--:|:--:|:--:|:--:|:--:|
-**`video_mode=1280,80,128,208,1008,3,7,28,104996`** | **4.5x** | **1280x1008** | **5x** |**2** | **1** |
