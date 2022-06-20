@@ -49,7 +49,7 @@
 
 # Integer Video Mode Information
 
-### Integer Video Mode calculation example:
+### Integer Video Mode calculation examples:
 
 **Integer scaled modelines** based off the vertical refresh rate (calculated pixel clock, horizontal total, and vertical total) and visible resolution. Visible lines plus blanking equal horizontal and vertical total.
 
@@ -61,7 +61,7 @@
 
 <br>
 
-[**Coordinated Video Timings-Standard Blanking**](https://en.wikipedia.org/wiki/Coordinated_Video_Timings) (CVT-Standard _VESA-2013-3 v1.2_) based off the vertical refresh rate and **total resolution**. Total resolution is required for accurate modeline calculations based off the pixel clock.
+[**Coordinated Video Timings-Standard Blanking**](https://en.wikipedia.org/wiki/Coordinated_Video_Timings) (CVT-Standard _VESA-2013-3 v1.2_) based off the vertical refresh rate and **total resolution**. Total resolution is required for accurate modeline calculations based off the pixel clock For this example, the horizontal total is 512 lines and the vertical total is 256 lines.
 
 <br>
 
