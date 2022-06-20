@@ -8,13 +8,12 @@
 <br>
 <br>
 
-## Video Mode Information:
+## Basic information:
 
   • Modes designed for monitors that upscale the provided resolution from the DE-10 Nano. This is known as "display scaling".<br><br>
   • Modes designed for LCD displays with a resolution of 1280x1024. Displays of this nature have a 5:4 aspect ratio and utilize step-integer scaling.<br><br>
   • Modes designed for 120 Hz capable displays to include VGA CRT monitors with BFI options from the DEXX-Pro or MiSTer framework running on the DE-10 Nano.<br><br>
   • Preconfigured MiSTer.ini / custom_scaler.txt files containing sensibly-grouped sets of video modes and timings.<br><br>
-  • The `releases` directory houses pre-configured `.ini` / `.txt` files, ranging from 4x to 6x (or equivelant integer scaled resolutions).<br><br>
 
 <br>
 
@@ -32,7 +31,7 @@
 
   • Integer scaling yields pixel-perfect upscaling, but it also means the image can't fill your display's full height. This is known as `vscale_mode=1`. You can also step integer scale at 1/2 or 1/4. This is known as `vscale_mode=2` and `vscale_mode=3`.<br><br>
   • Non-integer scaling fills the screen height, but it introduces very annoying artifacts (uneven scanlines, "shimmering" during vertical scrolling, etc). This is known as `vscale_mode=0`.<br><br>
-  • MiSTer "auto display scaling" yields similar results; you will be required to use `vscale_mode=4`, `vscale_mode=5`, `vscale_mode=6` and `vsync_adjust=1` or the native refresh rate will not be aligned. Visit the [**MiSTerFPGA wiki**](https://github.com/MiSTer-devel/Main_MiSTer/wiki) for further information on `vscale_mode=4` to `vscale_mode=6`.<br><br>
+  • MiSTer "auto display scaling" yields similar results; you will be required to use `vscale_mode=4`, `vscale_mode=5`, `vscale_mode=6`, and `vsync_adjust=1` or the native refresh rate will be ignored. Visit the [**MiSTerFPGA wiki**](https://github.com/MiSTer-devel/Main_MiSTer/wiki) for further information.<br><br>
 
 ## OSSC DEXX-Pro Lite Add-On provided scaling methods:
 
@@ -40,23 +39,23 @@
 
 <br>
 
-# MiSTer.ini Information
+## MiSTer.ini information related to this repository:
 
   • The default display resolution for the MiSTer.ini is set to 720p (`video_mode=0`) when utilizing  pre-defined video modes. Each core will be `vscale_mode=1` and `vsync_adjust=0` by default. You will not experience uneven scanlines, "shimmering" during vertical scrolling, etc. if using a calculated modeline provided.
 
-  • Due to the horizontal limitation of 2048 within cores, some video modes will utilize -1x for the horizontal scale. This will not affect the aspect ratio on your display if it's scaler takes advantage of the video mode provided. These are display dependent; nothing is a universal standard.
+  • Due to the horizontal limitation of the DE-10 scaler, some video modes will utilize -1x for the horizontal scale. This will not affect the aspect ratio on your display if it's scaler takes advantage of the video mode provided. These are display dependent; nothing is a universal standard.
 
-  • Integer-Step Scaled video modes are available for 1280x1024 LCD displays and common VGA CRT monitors with the same resolution; different video modes provided. Integer Step-Scaled Video Modes will specify the `vscale_mode` in the pre-configured `.ini` file. Video modes for VGA CRT monitors will utilize `vga_scaler=1`.
+  • Integer-Step Scaled video modes are available for 1280x1024 LCD displays. Integer Step-Scaled Video Modes will specify the `vscale_mode` in the pre-configured `.ini` file.
 
   • When utilitzing Integer Scaled video modes set the `aspect ratio: full screen` or the provided `custom aspect ratio` in the pre-configured `.ini` file. The `custom aspect ratio` is set to `DAR` (Display Aspect Ratio); this is the correct aspect ratio for a modern display.
 
-  • When utilizing Integer-Step Scaled video modes set `aspect ratio: full screen` in the MiSTer OSD. This properly displays the provided video mode. If you are using a common VGA CRT monitor, you can stretch the horizontal and vertical to fill the screen in the displays OSD in the monitors settings (end user preference).
+  • When utilizing Integer-Step Scaled video modes set `aspect ratio: full screen` in the MiSTer OSD. This properly displays the provided video mode.
 
   • If a core has `Dual Mode=Yes`, then there will only be one primary video mode available as the core supports multiple systems for one video mode. For custom aspect ratios, the first will be for the primary hardware and the other for the secondary hardware.
 
 <br>
 
-# OSSC DEXX-Pro Lite Add-On .txt Information
+## OSSC DEXX-Pro Lite Add-On .txt information:
 
 <br>
 
@@ -76,7 +75,7 @@
 
 # <p align=center>[Video Modes & Timings Templates](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/template/README.md)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
 
-### Integer Video Mode Calculation Example:
+### Integer video mode calculation example:
 
 **Integer scaled modelines** based off the vertical refresh rate (calculated pxlclk/htotal/vtotal) and visible resolution. Visible lines plus blanking equal h/v total.
 
