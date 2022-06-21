@@ -5,16 +5,19 @@
 
 ### <p align=center>Please read all information provided in the repository thoroughly.
 
-1. Basic Information
-2. Using Non-Standard Video Modes To Produce Hybrid Scaling
-3. MiSTer Provided Scaling Methods
-4. MiSTer.ini Information Related To This Repository
-5. OSSC DEXX-Pro Lite Add-On Provided Scaling Methods
-6. OSSC DEXX-Pro Lite Add-On Custom_Scaling.txt Information
-7. Integer Video Mode Calculation Examples
-8. Tools Utilized To Create Integer Video Modes
-9. Repository License
-10. Developer Support
+1. [**Basic Information**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#basic-information)
+2. [**Using Non-Standard Video Modes To Produce Hybrid Scaling**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#using-non-standard-video-modes-to-produce-hybrid-scaling)
+3. [**MiSTer Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#mister-provided-scaling-methods)
+4. [**MiSTer.ini Information Related To This Repository**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#misterini-information-related-to-this-repository)
+5. [**OSSC DEXX-Pro Lite Add-On Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#ossc-dexx-pro-lite-add-on-provided-scaling-methods)
+6. [**OSSC DEXX-Pro Lite Add-On Custom_Scaling.txt Information**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#ossc-dexx-pro-lite-add-on-custom_scalingtxt-information)
+7. [**Integer Video Mode Calculation Examples**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#integer-video-mode-calculation-examples)
+8. [**Tools Utilized To Create Integer Video Modes**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#tools-utilized-to-create-integer-video-modes)
+9. [**Console / Handheld Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/README.md)
+10. [**Arcade Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/README.md)
+11. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/README.md)
+12. [**Repository License**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#license)
+13. [**Developer Support**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#support)
 
 <br>
 
