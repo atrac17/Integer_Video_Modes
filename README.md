@@ -95,9 +95,10 @@ Integer-step scaled video modes are available for 1280x1024 LCD displays. Intege
 ### Tools Utilized To Create Integer Video Modes:
 
   - [**MiSTer modeline to video_mode conversion**](https://morf77.pythonanywhere.com/vm) by [**morf77**](https://github.com/morfeus77/MiSTerTools); this tool can be utilized to create **video_modes** for MiSTer by calculating modlines. There are several modeline tools available. This process is not used in the repository, but worth noting.<br><br>
+  - [**Video Timings Calculator**](https://tomverbeure.github.io/video_timings_calculator) by [**Tom Verbeure**]; this tool can be used in-conjunction with the above. It does not provide a precise pixel clock without extensive knowledge about video mode timings.<br><br>
   - [**MiSTer video_mode to modeline conversion**](https://morf77.pythonanywhere.com/ml) by [**morf77**](https://github.com/morfeus77/MiSTerTools); this tool can be utilized for creating **OSSC** timing parameters based off of modeline information. This tool is invaluable, I cannot thank morf77 enough for implementing this request.<br><br>
   - [**MiSTer aspect ratio calculator**](https://morf77.pythonanywhere.com/ar) by [**morf77**](https://github.com/morfeus77/MiSTerTools) and [**kitrinx**](https://github.com/kitrinx); this tool can be utilized to find **Display Aspect Ratio (DAR)** with information provided in this repository.<br><br>
-  - [**Custom Resolution Utility (CRU) 1.5**](https://www.monitortests.com/blog/custom-resolution-utility-cru-1-5/) by [**ToastyX**](https://www.patreon.com/ToastyX/); this tool is the primary resource for creating integer modelines. Many thanks to the developer; consider supporting their endeavors.
+  - [**Custom Resolution Utility (CRU) 1.5**](https://www.monitortests.com/blog/custom-resolution-utility-cru-1-5/) by [**ToastyX**](https://www.patreon.com/ToastyX/); this tool is the **primary resource for creating integer modelines**. Many thanks to the developer; consider supporting their endeavors.
 
 #
 
