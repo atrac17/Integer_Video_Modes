@@ -61,7 +61,8 @@ Integer-step scaled video modes are available for 1280x1024 LCD displays. Intege
 
 ### Integer Video Mode Calculation Examples:
 
-**Integer scaled modelines** based off the vertical refresh rate (calculated pixel clock, horizontal total, and vertical total) and visible resolution. Visible lines plus blanking equal horizontal and vertical total.
+**Integer scaled modelines** for HDMI displays are based off the **vertical refresh rate** (found by calculating the pixel clock, horizontal total, and vertical total) and **visible resolution**.<br><br>
+**Integer scaled modelines** for CRT displays are based off the **vertical refresh rate** (found by calculating the pixel clock, horizontal total, and vertical total), **visible resolution** and providing the **total resolution**.<br><br>**Visible resolution** plus **horizontal and vertical blanking** equal the **horizontal and vertical total** lines for the specified video modes.
 
 <br>
 
@@ -71,7 +72,7 @@ Integer-step scaled video modes are available for 1280x1024 LCD displays. Intege
 
 <br>
 
-[**Coordinated Video Timings-Standard Blanking**](https://en.wikipedia.org/wiki/Coordinated_Video_Timings) (CVT-Standard _VESA-2013-3 v1.2_) based off the vertical refresh rate and **total resolution**. Total resolution is required for accurate modeline calculations based off the pixel clock For this example, the horizontal total is 512 lines and the vertical total is 256 lines.
+[**Coordinated Video Timings-Standard Blanking**](https://en.wikipedia.org/wiki/Coordinated_Video_Timings) (CVT-Standard _VESA-2013-3 v1.2_) based off the **calculated vertical refresh rate**, utilizing **negative sync polarity** on the horizontal, **positive sync polarity** on the vertical,  and the **total resolution**.<br><br>Total resolution is required for accurate modeline calculations based off the pixel clock. For this example, the horizontal total is 512 lines and the vertical total is 256 lines.
 
 <br>
 
@@ -81,7 +82,7 @@ Integer-step scaled video modes are available for 1280x1024 LCD displays. Intege
 
 <br>
 
-[**Coordinated Video Timings-Reduced Blanking**](https://en.wikipedia.org/wiki/Coordinated_Video_Timings) (CVT-RB; _VESA-2013-3 v1.2_) based off the vertical refresh rate and **visible resolution**. The pixel clock for 4x integer scaling in the example below is exact; in-line with reduced blanking standards **not 1/4 rounded**.
+[**Coordinated Video Timings-Reduced Blanking**](https://en.wikipedia.org/wiki/Coordinated_Video_Timings) (CVT-RB; _VESA-2013-3 v1.2_) based off the **calculated vertical refresh rate**, utilizing **positive sync polarity** on the horizontal, **negative sync polarity** on the vertical, and the **visible resolution**. <br><br>The pixel clock for 4x integer scaling in the example below is exact; in-line with reduced blanking standards lowering the overall pixel clock. It is **not 1/4 rounded** using an algorithm like **"auto display scaling"**.
 
 <br>
 
