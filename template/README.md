@@ -17,7 +17,6 @@ video_mode=1280,80,128,208,1008,3,7,28,105730     ;4.5x AES only
 custom_aspect_ratio_1=640:441                     ;DAR
 vscale_mode=2
 vscale_mode=3
-vga_scaler=1
 ```
 
 # License
