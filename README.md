@@ -15,7 +15,7 @@
 8. [**Tools Utilized To Create Integer Video Modes**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#tools-utilized-to-create-integer-video-modes)
 9. [**Console / Handheld Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/README.md)
 10. [**Arcade Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/README.md)
-11. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/README.md)
+11. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update/template)
 12. [**Repository License**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#license)
 13. [**Developer Support**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/Update#support)
 
@@ -23,7 +23,7 @@
 
 ## Basic Information:
 
-  - Video Modes designed for monitors that upscale the provided resolution from the [**DE-10 Nano**](https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/hardware/fpga-de10-nano.html). This is known as [**Display Scaling**](https://en.wikipedia.org/wiki/Display_resolution); a hybrid scaling technique. 
+  - Video Modes designed for monitors that upscale the provided resolution from the [**DE-10 Nano**](https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/hardware/fpga-de10-nano.html). This is known as [**Display Scaling**](https://en.wikipedia.org/wiki/Display_resolution); a hybrid scaling technique.<br><br>
   - Video Modes designed for LCD displays with a resolution of **1280x1024** and **5:4** aspect ratio; these video modes utilize step-integer scaling.<br><br>
   - Video Modes designed for 120 Hz capable displays; compatible with [**Black Frame Insertion (BFI)**](https://en.wikipedia.org/wiki/Display_motion_blur)  options from the DEXX-Pro or MiSTer framework (**BFI** for the **DE-10 Nano** is currently a **work in progress**).<br><br>
   - Preconfigured MiSTer.ini / custom_scaler.txt files containing sensibly-grouped sets of video modes and timings available for download with all necessary documentation corresponding to the provided video modes.<br><br>

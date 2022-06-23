@@ -9,7 +9,7 @@ If a core has `Dual Mode=Yes`, then there will only be one primary video mode av
 <br>
 
 | Title | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
-|:--|:--:|:--:|:--:|
+|:--|:--:|:--:|:--:|:--:|
 [**Nintendo Famicom**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#nintendo-famicom--nintendo-entertainment-system) | 5.369318 MHz | 60.098 Hz | 256x224<br>256x240 | 341x262 |
 [**Nintendo Super Famicom**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#super-famicom--super-nintendo) | 5.369318 MHz<br>10.738636 MHz | 60.098 Hz | 256x224 / 256x240<br>512x224 / 512x240 | 341x262 / 682x262 |
 [**Sega SG-1000**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#sega-sg-1000)<br>[**Sega Mark III**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#sega-mark-iii--sega-master-system-sega-sg-1000-compatible) | 5.3693175 MHz | 59.922 Hz | 256x192 | 342x262 |
@@ -22,7 +22,7 @@ If a core has `Dual Mode=Yes`, then there will only be one primary video mode av
 <br>
 
 | Title | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
-|:--|:--:|:--:|:--:|
+|:--|:--:|:--:|:--:|:--:|
 [**Atari 7800**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#atari-7800) | 7.16 MHz | 59.965 Hz | 372x224 | 454x263 |
 [**Atari Lynx**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#atari-lynx) | 7.11 MHz | 59.176 Hz | 160x102 | 445x270 |
 [**Bandai WonderSwan**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/console.md#bandai-wonderswan--wonderswan-color) | 7.37 MHz | 75.371 Hz | 224x144 | 379x258 |
