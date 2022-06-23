@@ -7,7 +7,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-## [Capcom  Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/capcom.md)
+## [Capcom  Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/capcom.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -22,7 +22,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-## [Cave Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/cave.md)
+## [Cave Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/cave.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -31,7 +31,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-## [DataEast Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/data_east.md)
+## [DataEast Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/data_east.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -51,13 +51,13 @@ Irem M62 hardware has different horizontal resolutions set by jumpers on the act
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
-**Horizon**<br><br>**Kung-Fu Master**<br><br>**The Battle-Road**<br><br>**Youjyuden** | [**Irem M62<br>Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/irem_m62.md) | 6.144 MHz (lo-res) | 56.338 Hz | 256x256 | 384x284 |
-**Kid Niki: Radical Ninja**<br><br>**Lode Runner**<br><br>**Lode Runner II: The Bungeling Strikes Back**<br><br>**Lode Runner III: Majin no Fukkatsu**<br><br>**Lode Runner IV: Teikoku Karano Dasshutsu**<br><br>**LotLot**<br><br>**Spelunker**<br><br>**Spelunker II: 23 no Kagi** | [**Irem M62<br>Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/irem_m62.md) | 8.00 MHz (hi-res)  | 55.017 Hz | 384x256 | 512x284 |
-**Vigilante** | [**Irem M75 Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/irem_m75.md) | 6.144 MHz | 56.338 Hz | 256x256 | 384x284 |
+**Horizon**<br><br>**Kung-Fu Master**<br><br>**The Battle-Road**<br><br>**Youjyuden** | [**Irem M62<br>Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/irem_m62.md) | 6.144 MHz (lo-res) | 56.338 Hz | 256x256 | 384x284 |
+**Kid Niki: Radical Ninja**<br><br>**Lode Runner**<br><br>**Lode Runner II: The Bungeling Strikes Back**<br><br>**Lode Runner III: Majin no Fukkatsu**<br><br>**Lode Runner IV: Teikoku Karano Dasshutsu**<br><br>**LotLot**<br><br>**Spelunker**<br><br>**Spelunker II: 23 no Kagi** | [**Irem M62<br>Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/irem_m62.md) | 8.00 MHz (hi-res)  | 55.017 Hz | 384x256 | 512x284 |
+**Vigilante** | [**Irem M75 Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/irem_m75.md) | 6.144 MHz | 56.338 Hz | 256x256 | 384x284 |
 
 <br>
 
-## [Konami Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/konami.md)
+## [Konami Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/konami.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -68,7 +68,7 @@ Irem M62 hardware has different horizontal resolutions set by jumpers on the act
 
 <br>
 
-## [Mitchell Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/mitchell.md)
+## [Mitchell Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/mitchell.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -76,7 +76,7 @@ Irem M62 hardware has different horizontal resolutions set by jumpers on the act
 
 <br>
 
-## [Nichibutsu Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/nichibutsu.md)
+## [Nichibutsu Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/nichibutsu.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -96,9 +96,9 @@ Sega System E hardware implementation is shared with Sega Master System, custom 
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
-**Sega System I<br><br> Sega System II** | [**Sega System I<br><br>Sega System II**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/sega_sys_I_II.md) | 5.00 MHz | 60.096 Hz | 256x224 | 320x260 |
-**Sega System E** | [**Sega System E**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/sega_sys_e.md) | 5.37 MHz | 59.930 Hz | 256x192 | 342x262 |
-**Sega System 16** | [**Sega System16A<br><br>Sega System16B**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/sega_sys_16.md) | 6.2937 MHz | 60.284 Hz | 320x224 | 400x261 |
+**Sega System I<br><br> Sega System II** | [**Sega System I<br><br>Sega System II**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_I_II.md) | 5.00 MHz | 60.096 Hz | 256x224 | 320x260 |
+**Sega System E** | [**Sega System E**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_e.md) | 5.37 MHz | 59.930 Hz | 256x192 | 342x262 |
+**Sega System 16** | [**Sega System16A<br><br>Sega System16B**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_16.md) | 6.2937 MHz | 60.284 Hz | 320x224 | 400x261 |
 
 <br>
 
@@ -113,11 +113,11 @@ Neo Geo Multi Video System hardware implementation is shared with NeoGeo Advance
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
-**NeoGeo Multi Video System** | [**NeoGeo MVS Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/neogeo_mvs.md) | 6.00 MHz | 59.185 Hz | 320x224 | 384x264 |
+**NeoGeo Multi Video System** | [**NeoGeo MVS Based**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/neogeo_mvs.md) | 6.00 MHz | 59.185 Hz | 320x224 | 384x264 |
 
 <br>
 
-## [Taito Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/taito.md)
+## [Taito Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/taito.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -126,7 +126,7 @@ Neo Geo Multi Video System hardware implementation is shared with NeoGeo Advance
 
 <br>
 
-## [Technos Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/technos.md)
+## [Technos Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/technos.md)
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
