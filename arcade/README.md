@@ -3,7 +3,7 @@
 
 <br>
 
-Integer scaled modelines based on the information below. The visible resolution coincides with actual hardware and the pxlclk/htotal/vtotal have been measured. Modeline timings based off the vertical refresh rate (calculated pxlclk/htotal/vtotal) and visible resolution. If a modeline for an arcade core is not provided below, it may be added in the future.
+Integer scaled modelines based on the information below. The visible resolution coincides with actual hardware and pixel clock, horizontal total, and vertical total have been measured. Modeline timings based off the vertical refresh rate and visible resolution. If a modeline for an arcade core is not provided below, it may be added in the future.
 
 <br>
 

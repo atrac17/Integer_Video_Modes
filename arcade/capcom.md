@@ -30,7 +30,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jt1942**]<br>[**jt1943**]<br>[**jtbtiger**]<br>[**jtcom**]<br>[**jtgun**]<br>[**jthige**]<br>[**jtvulgus**]<br>[**jtexes**] | **6.00 MHz** | **59.637 Hz** | **256x224** | **45:44** | **2560:2191** |
+[**jt1942**]<br>[**jt1943**]<br>[**jtbtiger**]<br>[**jtcom**]<br>[**jtgun**]<br>[**jthige**]<br>[**jtvulgus**]<br>[**jtexes**] | **6.00 MHz** | **59.637 Hz** | **256x224** | **8:7** | **2560:2191** |
 
 ### Video Modes:
 
@@ -52,7 +52,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtsarms**] | **8.00 MHz** | **60.096 Hz** | **384x224** | **176:135** | **1280:973**|
+[**jtsarms**] | **8.00 MHz** | **60.096 Hz** | **384x224** | **12:7** | **1280:973**|
 
 <br>
 
@@ -76,7 +76,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtsz**] | **6.00 MHz** | **55.407 Hz** | **256x240** | **45:44** | **1024:939** |
+[**jtsz**] | **6.00 MHz** | **55.407 Hz** | **256x240** | **16:15** | **1024:939** |
 
 ### Video Modes:
 
@@ -98,7 +98,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jttrojan**] | **6.00 MHz** | **56.003 Hz** | **256x240** | **45:44** | **1024:939** |
+[**jttrojan**] | **6.00 MHz** | **56.003 Hz** | **256x240** | **16:15** | **1024:939** |
 
 ### Video Modes:
 
@@ -120,7 +120,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtgng**] | **6.00 MHz** | **59.637 Hz** | **256x224** | **45:44** | **2560:2191** |
+[**jtgng**] | **6.00 MHz** | **59.637 Hz** | **256x224** | **8:7** | **2560:2191** |
 
 ### Video Modes:
 
@@ -142,7 +142,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtrumble**] | **8.00 MHz** | **57.444Hz** | **353x240** | **353:240** | **1412:1251** |
+[**jtrumble**] | **8.00 MHz** | **57.444Hz** | **353x240** | **22:15** | **1412:1251** |
 
 ### Video Modes:
 
@@ -164,7 +164,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtbiocom**]<br>[**jtf1drm**]<br>[**jttora**] | **6.00 MHz** | **59.637 Hz** | **256x224** | **45:44** | **2560:2191** |
+[**jtbiocom**]<br>[**jtf1drm**]<br>[**jttora**] | **6.00 MHz** | **59.637 Hz** | **256x224** | **8:7** | **2560:2191** |
 
 ### Video Modes:
 
@@ -186,7 +186,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtsf**] | **8.00 MHz** | **61.035 Hz** | **384x224** | **176:135** | **1280:973** |
+[**jtsf**] | **8.00 MHz** | **61.035 Hz** | **384x224** | **12:7** | **1280:973** |
 
 ### Video Modes:
 
@@ -208,7 +208,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtcps1**]<br>[**jtcps15**]<br>[**jtcps2**] | **8.00 MHz** | **59.629 Hz** | **384x224** | **176:135** | **1280:973** |
+[**jtcps1**]<br>[**jtcps15**]<br>[**jtcps2**] | **8.00 MHz** | **59.629 Hz** | **384x224** | **12:7** | **1280:973** |
 
 ### Video Modes:
 

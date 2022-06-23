@@ -23,7 +23,8 @@
 
 ## Basic Information:
 
-  - Video Modes designed for monitors that upscale the provided resolution from the [**DE-10 Nano**](https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/hardware/fpga-de10-nano.html). This is known as [**Display Scaling**](https://en.wikipedia.org/wiki/Display_resolution); a hybrid scaling technique. Video Modes designed for LCD displays with a resolution of **1280x1024** and **5:4** aspect ratio; these video modes utilize step-integer scaling.<br><br>
+  - Video Modes designed for monitors that upscale the provided resolution from the [**DE-10 Nano**](https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/hardware/fpga-de10-nano.html). This is known as [**Display Scaling**](https://en.wikipedia.org/wiki/Display_resolution); a hybrid scaling technique. 
+  - Video Modes designed for LCD displays with a resolution of **1280x1024** and **5:4** aspect ratio; these video modes utilize step-integer scaling.<br><br>
   - Video Modes designed for 120 Hz capable displays; compatible with [**Black Frame Insertion (BFI)**](https://en.wikipedia.org/wiki/Display_motion_blur)  options from the DEXX-Pro or MiSTer framework (**BFI** for the **DE-10 Nano** is currently a **work in progress**).<br><br>
   - Preconfigured MiSTer.ini / custom_scaler.txt files containing sensibly-grouped sets of video modes and timings available for download with all necessary documentation corresponding to the provided video modes.<br><br>
 
@@ -43,7 +44,7 @@ MiSTer's "auto display scaling" yields similar results; the algorithm used for [
 
 ## MiSTer.ini Information Related To This Repository:
 
-The default resolution for pre-configured `MiSTer.ini` files is set to `video_mode=0` (**720p**). Each core will utilize `vscale_mode=1` and `vsync_adjust=2` by default. The calculated video modes provided will also function with `vsync_adjust=0` (retaining the native refresh rate of the content) and `vsync_adjust=1`; `vscale_mode=0` and `vsync_adjust=0` require extensive testing. End users will not experience issues when scaling (uneven scanlines, "shimmering" during vertical scrolling, etc) using the calculated modelines provided.<br><br>
+The default resolution for pre-configured `MiSTer.ini` files is set to `video_mode=0` (**720p**). Each core will utilize `vscale_mode=1` and `vsync_adjust=1` by default. The calculated video modes provided will also function with `vsync_adjust=0` (retaining the native refresh rate) and `vsync_adjust=2` (this will deviate from the native refresh rate); `vscale_mode=0` and `vsync_adjust=0` require extensive testing. End users will not experience issues when scaling (uneven scanlines, "shimmering" during vertical scrolling, etc) using the calculated modelines provided.<br><br>
 Due to the horizontal limitation of the **DE-10 Nano**'s scaler and [**ADV7513**](https://www.analog.com/media/en/technical-documentation/data-sheets/adv7513.pdf), video modes exceeding the horizontal capability utilize `-1x` for the horizontal scale. This will not affect the aspect ratio on your displays that take advantage of the video mode provided. These are display dependent; nothing is a universal standard.<br><br>
 Integer-step scaled video modes are available for 1280x1024 LCD displays. Integer step-scaled video modes specify the `vscale_mode` in the pre-configured `MiSTer.ini` file. When utilitzing integer scaled video modes set the `aspect ratio: full screen` or the provided `custom aspect ratio` in the pre-configured `MiSTer.ini` file. The `custom aspect ratio` is set for the contents [**Display Aspect Ratio (DAR)**](https://en.wikipedia.org/wiki/Pixel_aspect_ratio#Introduction); this is the correct aspect ratio for a modern display. When utilizing integer-step scaled video modes set `aspect ratio: full screen` in the MiSTer OSD. This properly displays the provided video mode for a 5:4 aspect ratio display (1280x1024).<br><br>
 
@@ -97,20 +98,20 @@ Integer-step scaled video modes are available for 1280x1024 LCD displays. Intege
   - [**MiSTer modeline to video_mode conversion**](https://morf77.pythonanywhere.com/vm) by [**morf77**](https://github.com/morfeus77/MiSTerTools); this tool can be utilized to create **video_modes** for MiSTer by calculating modlines. There are several modeline tools available. This process is not used in the repository, but worth noting.<br><br>
   - [**Video Timings Calculator**](https://tomverbeure.github.io/video_timings_calculator) by [**Tom Verbeure**]; this tool can be used in-conjunction with the above. It does not provide a precise pixel clock without extensive knowledge about video mode timings.<br><br>
   - [**MiSTer video_mode to modeline conversion**](https://morf77.pythonanywhere.com/ml) by [**morf77**](https://github.com/morfeus77/MiSTerTools); this tool can be utilized for creating **OSSC** timing parameters based off of modeline information. This tool is invaluable, I cannot thank morf77 enough for implementing this request.<br><br>
-  - [**MiSTer aspect ratio calculator**](https://morf77.pythonanywhere.com/ar) by [**morf77**](https://github.com/morfeus77/MiSTerTools) and [**kitrinx**](https://github.com/kitrinx); this tool can be utilized to find **Display Aspect Ratio (DAR)** with information provided in this repository.<br><br>
+  - [**MiSTer aspect ratio calculator**](https://morf77.pythonanywhere.com/ar) by [**morf77**](https://github.com/morfeus77/MiSTerTools) and [**kitrinx**](https://github.com/kitrinx) (algorithm code); this tool can be utilized to find **Display Aspect Ratio (DAR)** with information provided in this repository.<br><br>
   - [**Custom Resolution Utility (CRU) 1.5**](https://www.monitortests.com/blog/custom-resolution-utility-cru-1-5/) by [**ToastyX**](https://www.patreon.com/ToastyX/); this tool is the **primary resource for creating integer modelines**. Many thanks to the developer; consider supporting their endeavors.
 
 #
 
-# <p align=center>[Console / Handheld Video Modes & Timings](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/README.md)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
+# <p align=center>[Console / Handheld Video Modes & Timings](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/console/)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
 
 #
 
-# <p align=center>[Arcade Video Modes & Timings](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/README.md)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
+# <p align=center>[Arcade Video Modes & Timings](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/arcade/)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
 
 #
 
-# <p align=center>[Video Modes & Timings Templates](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/template/README.md)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
+# <p align=center>[Video Modes & Timings Templates](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/Update/template/)<br>For MiSTer cores & the  DEXX-Pro Lite Add-On</p>
 
 # License
 

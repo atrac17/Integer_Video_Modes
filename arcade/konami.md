@@ -24,7 +24,6 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtkicker**]<br>[**jtbaskt**]<br>[**jtmikie**]<br>[**jtroadf**] | **6.144 MHz** | **60.606 Hz** | **224x256** | **7:8** | **7:8** |
 [**jtyiear**]<br>[**jttrack**]<br>[**jtpinpon**]<br>[**jtroadf**] | **6.144 MHz** | **60.606 Hz** | **256x224** | **8:7** | **8:7** |
 
 <br>

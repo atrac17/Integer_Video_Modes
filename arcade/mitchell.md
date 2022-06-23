@@ -19,7 +19,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jtpang**] | **8.00 MHz** | **56.338 Hz** | **384x240** | **4:3** | **512:417** |
+[**jtpang**] | **8.00 MHz** | **56.338 Hz** | **384x240** | **8:5** | **512:417** |
 
 <br>
 
