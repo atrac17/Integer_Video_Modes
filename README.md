@@ -145,7 +145,7 @@ vsync_adjust=2
 
 ### Tools Utilized To Create New EDID Resolutions:
 
-  - [**Dump EDID**](https://www.nirsoft.net/utils/dump_edid.html) by [**NirSoft**]; quick tool for finding vendor specific information about your display.<br><br>
+  - [**Dump EDID**](https://www.nirsoft.net/utils/dump_edid.html) by [**NirSoft**](https://www.nirsoft.net); quick tool for finding vendor specific information about your display.<br><br>
   - [**EDID Repository**](https://github.com/linuxhw/EDID) using the information above, locate your display in the `digital` housed in this repository for proper EDID information.<br><br>
   - [**EDID/DisplayID Writer**](https://www.monitortests.com/forum/Thread-EDID-DisplayID-Writer) by [**ToastyX**](https://www.patreon.com/ToastyX/); follow the instructions provided (**USE AT YOUR OWN RISK**). Used to create resolutions (_i.e. 2048x1440, 1920x1440_) that exceed the horizontal resolution of `2048`; assists with EDID parsing.<br><br>
 
