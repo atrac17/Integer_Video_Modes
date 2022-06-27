@@ -45,7 +45,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 <br>
 
 **Notes:**<br>
-Irem M62 hardware has different horizontal resolutions set by jumpers on the actual PCB. Spanning from 256 to 384 horizontal.<br><br>256 horizontal video modes will result in a border for Kung Fu Master / Spartan X etc. but display the correct aspect ratio of 1:1. The core currently has the **incorrect vertical refresh rate and visible resolution**. 256x256 titles are notated by mameset in the `pre-configured .ini` files.
+Irem M62 hardware has different horizontal resolutions set by jumpers on the actual PCB. Spanning from 256 to 384 horizontal. This information is based on schematics; I have purchased Kid Niki and Kung-Fu Master schematics to verify this information as they are no legible scans available.<br><br>256 horizontal video modes will result in a border for Kung Fu Master / Spartan X etc. but display the correct aspect ratio of 1:1. The core currently has the **incorrect vertical refresh rate and visible resolution**. 384x256 titles are notated by mameset in the `pre-configured .ini` files.
 
 <br>
 
