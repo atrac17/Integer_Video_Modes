@@ -147,7 +147,7 @@ vsync_adjust=2
 
   - [**Dump EDID**](https://www.nirsoft.net/utils/dump_edid.html) by [**NirSoft**]; quick tool for finding vendor specific information about your display.<br><br>
   - [**EDID Repository**](https://github.com/linuxhw/EDID) using the information above, locate your display in the `digital` housed in this repository for proper EDID information.<br><br>
-  - [**EDID/DisplayID Writer**](https://www.monitortests.com/forum/Thread-EDID-DisplayID-Writer) by [**ToastyX**](https://www.patreon.com/ToastyX/); follow the instructions provided. Useful for 2560x1440 displays that will let you write a new resolution below the horizontal limitation of 2048. Primarily used for creating 1920x1440 resolutions to be parsed by MiSTer's `EDID detection`. **USE AT YOUR OWN RISK**<br><br>
+  - [**EDID/DisplayID Writer**](https://www.monitortests.com/forum/Thread-EDID-DisplayID-Writer) by [**ToastyX**](https://www.patreon.com/ToastyX/); follow the instructions provided (**USE AT YOUR OWN RISK**). Used to create resolutions (_i.e. 2048x1440, 1920x1440_) that are not limited by the horizontal of 2048 for 2560x1440 displays so the EDID parsing by MiSTer's `EDID detection` falls in line with the native vertical resolution.<br><br>
 
 #
 
