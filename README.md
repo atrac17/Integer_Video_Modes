@@ -145,9 +145,9 @@ vsync_adjust=2
 
 ### Tools Utilized To Create New EDID Resolutions:
 
-  - [**Dump EDID**](https://www.nirsoft.net/utils/dump_edid.html) by [**NirSoft**]; quick tool for finding vendor specific information about your display.
-  - [**EDID Repository**](https://github.com/linuxhw/EDID) using the information above, locate your display in the `digital` housed in this repository for proper EDID information.
-  - [**EDID/DisplayID Writer**](https://www.monitortests.com/forum/Thread-EDID-DisplayID-Writer) by [**ToastyX**](https://www.patreon.com/ToastyX/); follow the instructions provided. Useful for 2560x1440 displays that will let you write a new resolution below the horizontal limitation of 2048. Primarily used for creating 1920x1440 resolutions to be parsed by MiSTer's `EDID detection`. **USE AT YOUR OWN RISK**
+  - [**Dump EDID**](https://www.nirsoft.net/utils/dump_edid.html) by [**NirSoft**]; quick tool for finding vendor specific information about your display.<br><br>
+  - [**EDID Repository**](https://github.com/linuxhw/EDID) using the information above, locate your display in the `digital` housed in this repository for proper EDID information.<br><br>
+  - [**EDID/DisplayID Writer**](https://www.monitortests.com/forum/Thread-EDID-DisplayID-Writer) by [**ToastyX**](https://www.patreon.com/ToastyX/); follow the instructions provided. Useful for 2560x1440 displays that will let you write a new resolution below the horizontal limitation of 2048. Primarily used for creating 1920x1440 resolutions to be parsed by MiSTer's `EDID detection`. **USE AT YOUR OWN RISK**<br><br>
 
 #
 
