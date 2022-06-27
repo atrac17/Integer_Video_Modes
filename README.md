@@ -14,11 +14,12 @@
 7. [**OSSC DEXX-Pro Lite Add-On Custom_Scaling.txt Information**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-custom_scalingtxt-information)
 8. [**Integer Video Mode Calculation Examples**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#integer-video-mode-calculation-examples)
 9. [**Tools Utilized To Create Integer Video Modes**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#tools-utilized-to-create-integer-video-modes)
-10. [**Console / Handheld Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/README.md)
-11. [**Arcade Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/README.md)
-12. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main/template)
-13. [**Repository License**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#license)
-14. [**Developer Support**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#support)
+10. [**Tools Utilized To Create New EDID Resolutions**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#tools-utilized-to-create-new-edid-resolutions)
+11. [**Console / Handheld Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/README.md)
+12. [**Arcade Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/README.md)
+13. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main/template)
+14. [**Repository License**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#license)
+15. [**Developer Support**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#support)
 
 <br>
 
@@ -137,10 +138,16 @@ vsync_adjust=2
 ### Tools Utilized To Create Integer Video Modes:
 
   - [**MiSTer modeline to video_mode conversion**](https://morf77.pythonanywhere.com/vm) by [**morf77**](https://github.com/morfeus77/MiSTerTools); this tool can be utilized to create **video_modes** for MiSTer by calculating modlines. There are several modeline tools available. This process is not used in the repository, but worth noting.<br><br>
-  - [**Video Timings Calculator**](https://tomverbeure.github.io/video_timings_calculator) by [**Tom Verbeure**](https://github.com/tomverbeure); this tool can be used in-conjunction with the above. It does not provide a precise pixel clock without extensive knowledge about video mode timings.<br><br>
+  - [**Video Timings Calculator**](https://tomverbeure.github.io/video_timings_calculator) by [**Tom Verbeure**](https://github.com/tomverbeure); this tool can be used in-conjunction with the below. It does not provide a precise pixel clock without extensive knowledge about video mode timings.<br><br>
   - [**MiSTer video_mode to modeline conversion**](https://morf77.pythonanywhere.com/ml) by [**morf77**](https://github.com/morfeus77/MiSTerTools); this tool can be utilized for creating **OSSC** timing parameters based off of modeline information. This tool is invaluable, I cannot thank morf77 enough for implementing this request.<br><br>
   - [**MiSTer aspect ratio calculator**](https://morf77.pythonanywhere.com/ar) by [**morf77**](https://github.com/morfeus77/MiSTerTools) and [**kitrinx**](https://github.com/kitrinx) (algorithm code); this tool can be utilized to find **Display Aspect Ratio (DAR)** with information provided in this repository.<br><br>
   - [**Custom Resolution Utility (CRU) 1.5**](https://www.monitortests.com/blog/custom-resolution-utility-cru-1-5/) by [**ToastyX**](https://www.patreon.com/ToastyX/); this tool is the **primary resource for creating integer modelines**. Many thanks to the developer; consider supporting their endeavors.
+
+### Tools Utilized To Create New EDID Resolutions:
+
+  - [**Dump EDID**](https://www.nirsoft.net/utils/dump_edid.html) by [**NirSoft**]; quick tool for finding vendor specific information about your display.
+  - [**EDID Repository**](https://github.com/linuxhw/EDID) using the information above, locate your display in the `digital` housed in this repository for proper EDID information.
+  - [**EDID/DisplayID Writer**](https://www.monitortests.com/forum/Thread-EDID-DisplayID-Writer) by [**ToastyX**](https://www.patreon.com/ToastyX/); follow the instructions provided. Useful for 2560x1440 displays that will let you write a new resolution below the horizontal limitation of 2048. Primarily used for creating 1920x1440 resolutions to be parsed by MiSTer's `EDID detection`. **USE AT YOUR OWN RISK**
 
 #
 
