@@ -9,7 +9,7 @@
 2. [**Using Non-Standard Video Modes To Produce Hybrid Scaling**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#using-non-standard-video-modes-to-produce-hybrid-scaling)
 3. [**MiSTer Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#mister-provided-scaling-methods)
 4. [**MiSTer.ini Information Related To This Repository**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#misterini-information-related-to-this-repository)
-5. [**MiSTer.ini Recommended Settings**](https://github.com/atrac17/Integer_Video_Modes/edit/main/README.md#misterini-recommended-settings)
+5. [**MiSTer.ini Recommended Settings**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#misterini-recommended-settings)
 6. [**OSSC DEXX-Pro Lite Add-On Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-provided-scaling-methods)
 7. [**OSSC DEXX-Pro Lite Add-On Custom_Scaling.txt Information**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-custom_scalingtxt-information)
 8. [**Integer Video Mode Calculation Examples**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#integer-video-mode-calculation-examples)
