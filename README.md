@@ -9,15 +9,16 @@
 2. [**Using Non-Standard Video Modes To Produce Hybrid Scaling**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#using-non-standard-video-modes-to-produce-hybrid-scaling)
 3. [**MiSTer Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#mister-provided-scaling-methods)
 4. [**MiSTer.ini Information Related To This Repository**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#misterini-information-related-to-this-repository)
-5. [**OSSC DEXX-Pro Lite Add-On Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-provided-scaling-methods)
-6. [**OSSC DEXX-Pro Lite Add-On Custom_Scaling.txt Information**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-custom_scalingtxt-information)
-7. [**Integer Video Mode Calculation Examples**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#integer-video-mode-calculation-examples)
-8. [**Tools Utilized To Create Integer Video Modes**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#tools-utilized-to-create-integer-video-modes)
-9. [**Console / Handheld Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/README.md)
-10. [**Arcade Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/README.md)
-11. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main/template)
-12. [**Repository License**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#license)
-13. [**Developer Support**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#support)
+5. [**MiSTer.ini Recommended Settings**](https://github.com/atrac17/Integer_Video_Modes/edit/main/README.md#misterini-recommended-settings)
+6. [**OSSC DEXX-Pro Lite Add-On Provided Scaling Methods**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-provided-scaling-methods)
+7. [**OSSC DEXX-Pro Lite Add-On Custom_Scaling.txt Information**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#ossc-dexx-pro-lite-add-on-custom_scalingtxt-information)
+8. [**Integer Video Mode Calculation Examples**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#integer-video-mode-calculation-examples)
+9. [**Tools Utilized To Create Integer Video Modes**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#tools-utilized-to-create-integer-video-modes)
+10. [**Console / Handheld Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/README.md)
+11. [**Arcade Video Modes & Timings**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/README.md)
+12. [**Video Modes & Timings Templates**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main/template)
+13. [**Repository License**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#license)
+14. [**Developer Support**](https://github.com/atrac17/MiSTer_Integer_Modelines/tree/main#support)
 
 <br>
 
@@ -56,6 +57,37 @@ vrr_freesync_max_framerate=120
 ```
 
 End-Users need to select their `vrr_mode` as each display will be different. Visit [**MiSTerFPGA MKDocs**](https://mister-devel.github.io/MkDocs_MiSTer/basics/video/#vsync_adjust) for more information on VRR support and vsync_adjust.<br><br>
+
+## MiSTer.ini Recommended Settings:
+
+In-conjunction with the provided video modes, the following options are recommended; results may vary based on display type. These settings will result in `vsync_adjust=2` keeping the native core timing based on the calculated video mode.
+
+### 120Hz Capable Displays
+
+```
+vrr_mode=1
+vrr_freesync_min_framerate=46
+vrr_freesync_max_framerate=120
+vsync_adjust=2
+```
+
+### 60Hz Capable Displays
+
+```
+vrr_mode=1
+vrr_freesync_min_framerate=46
+vrr_freesync_max_framerate=60
+vsync_adjust=2
+```
+
+### 75Hz Capable Displays
+
+```
+vrr_mode=1
+vrr_freesync_min_framerate=46
+vrr_freesync_max_framerate=75
+vsync_adjust=2
+```
 
 ## OSSC DEXX-Pro Lite Add-On Provided Scaling Methods:
 
