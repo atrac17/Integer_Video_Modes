@@ -119,9 +119,16 @@ Neo Geo Multi Video System hardware implementation is shared with NeoGeo Advance
 
 ## [Taito Arcade Hardware](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/taito.md)
 
+<br>
+
+**Notes:**<br>
+Taito z80 based hardware FPGA implementations reflect a vertical of 225 pixels, the hardware is 224. Currently, the video modes coincide with the resolution provided by the FPGA implementation for proper scaling. The pixel clock and timings are correct in these implementations.
+
+<br>
+
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
-**Bubble Bobble**<br><br>**Tokio** | Taito Z80 Based | 6.00 MHz | 59.185 Hz | 256x225 | 384x264 |
+**Arkanoid**<br><br>**Bubble Bobble**<br><br>**Tokio** | Taito Z80 Based | 6.00 MHz | 59.185 Hz | 256x224 (Hardware)<br>256x225 (FPGA Core) | 384x264 |
 **Rastan** | Taito M68000 Based | 6.677 MHz | 59.876 Hz | 320x240 | 424x263 |
 
 <br>
