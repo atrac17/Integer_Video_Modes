@@ -3,14 +3,14 @@
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) |
 |:--|:--:|:--:|:--:|
-[Atari 7800](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#atari-7800) | 7.16 MHz | 59.965 Hz | 372x224 |
+[Atari 7800](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#atari-7800) | 7.159090 MHz | 59.965 Hz | 372x224 |
 [Atari Lynx](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#atari-lynx) | 7.11 MHz | 59.176 Hz | 160x102 |
 [Bandai WonderSwan](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#bandai-wonderswan--wonderswan-color) | 7.37 MHz | 75.371 Hz | 224x144 |
 [NEC PC Engine Duo](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#pc-engine-duo--turbo-duo) | 5.37 MHz<br>7.16 MHz<br>10.74 MHz | 60.106 Hz | 360x231 |
 [Nintendo Famicom](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#nintendo-famicom--nintendo-entertainment-system) | 5.369318 MHz | 60.098 Hz | 256x224<br>256x240 |
-[Nintendo Gameboy](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#game-boy--game-boy-color) | 4.194 MHz | 59.723 Hz | 160x144 |
+[Nintendo Gameboy](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#game-boy--game-boy-color) | 4.194805 MHz | 59.723 Hz | 160x144 |
 [Nintendo Super Famicom](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#super-famicom--super-nintendo) | 5.369318 MHz<br>10.738636 MHz | 60.098 Hz | 256x224 / 256x240<br>512x224 / 512x240 |
-[Nintendo Gameboy Advance](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#game-boy-advance) | 6.29 MHz | 59.713 Hz | 240x160 |
+[Nintendo Gameboy Advance](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#game-boy-advance) | 6.293706 MHz | 59.713 Hz | 240x160 |
 [Sega SG-1000](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-sg-1000)<br>[**Sega Mark III**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-mark-iii--sega-master-system-sega-sg-1000-compatible) | 5.3693175 MHz | 59.922 Hz | 256x192 |
 [**Sega Mega Drive**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-mega-drive--sega-genesis)<br>[Sega Mega CD](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-mega-drive--sega-genesis)<br>[Sega Super 32x](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-mega-drive--sega-genesis) | 6.711647 MHz | 59.852 Hz | 320x224<br>256x224 |
 [**Sega GameGear**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-game-gear) | 5.3693175 MHz | 59.922 Hz | 160x144 | 342x262 |
@@ -33,7 +33,7 @@ The visible resolution in this core does not correspond with the actual hardware
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-[**atari7800**] | **7.16 MHz** | **59.965 Hz** | **372x224** | **93:56** | **3720:2611** |
+[**atari7800**] | **7.159090 MHz** | **59.965 Hz** | **372x224** | **93:56** | **3720:2611** |
 
 ### Video Modes:
 
@@ -188,7 +188,7 @@ _**Mask Edges: Auto**_
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-[**gameboy**] | **4.194 MHz** | **59.723 Hz** | **160x144** | **10:9** | **3200:1971** |
+[**gameboy**] | **4.194805 MHz** | **59.723 Hz** | **160x144** | **10:9** | **3200:1971** |
 
 ### Video Modes:
 
@@ -245,7 +245,7 @@ _**Mask Edges: Auto**_
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-[**gba**] | **6.29 MHz** | **59.713 Hz** | **240x160** | **3:2** | **60:41** |
+[**gba**] | **6.293706 MHz** | **59.713 Hz** | **240x160** | **3:2** | **60:41** |
 
 ### Video Modes:
 
