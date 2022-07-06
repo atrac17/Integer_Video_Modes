@@ -16,7 +16,7 @@
 [**Sega GameGear**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-game-gear) | 5.3693175 MHz | 59.922 Hz | 160x144 | 342x262 |
 [**Sega Saturn**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-saturn) | 7.15909 MHz (lo-res)<br><br><br>14.31818 MHz (hi-res) | 59.826 Hz | 320x224 / 240<br>352x224 / 240<br><br>640x448i / 480i<br>704x448i / 480i | 455x263 / 910x263 |
 [**SNK NeoGeo AES**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#neo-geo-advanced-entertainment-system) | 6.041957 MHz | 59.599 Hz | 320x224 | 384x264 |
-[**Sony PlayStation**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sony-playstation) | 5.322240 MHz<br>6.652800 MHz<br>7.603200 MHz<br>10.644480 MHz<br>5.322240 MHz<br>13.305600 MHz | 59.800 Hz | 256x224<br>320x224<br>368x224<br>512x224<br>256x240<br>320x240<br>368x240<br>512x240<br>640x480i | 423x263 for 6.652800 Mhz |
+[**Sony PlayStation**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sony-playstation) | 5.369318 MHz<br>6.711647 MHz<br>7.670454 MHz<br>10.738636 MHz<br>13.423295 MHz | 59.826 Hz | 256x224<br>320x224<br>384x224<br>512x224<br><br>256x240<br>320x240<br>384x240<br>512x240<br><br>640x480i<br>704x480i | 487.5x263 for 7.670454 MHz |
 
 <br>
 
@@ -447,27 +447,27 @@ To circumvent the horizontal change between games, I recommend using a 352px wid
 
 | Core | Pixel Clock | Refresh Rate |Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-[**psx**] | 5.322240 MHz<br>6.652800 MHz<br>7.603200 MHz<br>10.644480 MHz<br>5.322240 MHz<br>13.305600 MHz | **59.800 Hz** | **256x224**<br>**320x224**<br>**368x224**<br>**512x224**<br>**256x240**<br>**320x240**<br>**368x240**<br>**512x240**<br>**640x480i** | **4:3**<br>**10:7**<br>**115:84**<br>**8:7**<br>**56:45**<br>**4:3**<br>**23:18**<br>**16:15**<br>**4:3** | **1280:973**<br>**3200:2429**<br>**920:693**<br>**1024:777**<br>**512:417**<br>**1280:1041**<br>**368:297**<br>**2048:1665**<br>**1280:1041** |
+[**psx**] | **5.369318 MHz<br>6.711647 MHz<br>7.670454 MHz<br>10.738636 MHz<br>13.423295 MHz** | **59.826 Hz** | **256x224**<br>**320x224**<br>**368x224**<br>**512x224**<br>**256x240**<br>**320x240**<br>**368x240**<br>**512x240**<br>**640x480i** | **4:3**<br>**10:7**<br>**12:7**<br>**8:7**<br>**56:45**<br>**4:3**<br>**23:18**<br>**8:5**<br>**4:3** | **1280:973**<br>**3200:2429**<br>**920:693**<br>**1024:777**<br>**512:417**<br>**1280:1041**<br>**368:297**<br>**2048:1665**<br>**1280:1041** |
 
 ### Video Modes:
 
-| CVT-RB Standard NTSC Modelines (HDTV) | Integer | Resolution (224) | Horizontal |
+| CVT-RB Standard NTSC Modelines (HDTV) | Integer | Resolution (224) | Horizontal (320) |
 |:--|:--:|:--:|:--:|
-**`video_mode=1280,48,32,80,896,3,10,13,79396`**   | **4x** | **1280x896**  | **4x** |
-**`video_mode=1600,48,32,80,1120,3,10,19,121246`** | **5x** | **1600x1120** | **5x** |
-**`video_mode=1920,48,32,80,1344,3,10,26,172024`** | **6x** | **1920x1344** | **6x** |
+**`video_mode=1280,48,32,80,896,3,10,13,79430`**   | **4x** | **1280x896**  | **4x** |
+**`video_mode=1600,48,32,80,1120,3,10,19,121299`** | **5x** | **1600x1120** | **5x** |
+**`video_mode=1920,48,32,80,1344,3,10,26,172098`** | **6x** | **1920x1344** | **6x** |
 
 <br>
 
-| CVT-RB Standard NTSC Modelines (HDTV) | Integer | Resolution (240) | Horizontal |
+| CVT-RB Standard NTSC Modelines (HDTV) | Integer | Resolution (240) | Horizontal (320) |
 |:--|:--:|:--:|:--:|
-**`video_mode=1280,48,32,80,960,3,4,21,85079`**    | **4x** | **1280x960**  | **4x** |
-**`video_mode=1600,48,32,80,1200,3,4,27,129877`**  | **5x** | **1600x1200** | **5x** |
-**`video_mode=1920,48,32,80,1440,3,4,34,184213`**  | **6x** | **1920x1440** | **6x** |
+**`video_mode=1280,48,32,80,960,3,4,21,85116`**    | **4x** | **1280x960**  | **4x** |
+**`video_mode=1600,48,32,80,1200,3,4,27,129933`**  | **5x** | **1600x1200** | **5x** |
+**`video_mode=1920,48,32,80,1440,3,4,34,184293`**  | **6x** | **1920x1440** | **6x** |
 
 <br>
 
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
-**`video_mode=1280,48,32,80,1008,3,7,19,89299`** | **4.75x** | **1280x1008** | **5x** | **3** |
-**`video_mode=1280,48,32,80,1020,3,7,19,90332`** | **4.25x** | **1280x1020** | **5x** | **3** |
+**`video_mode=1280,48,32,80,1008,3,7,19,89337`** | **4.75x** | **1280x1008** | **5x** | **3** |
+**`video_mode=1280,48,32,80,1020,3,7,19,90371`** | **4.25x** | **1280x1020** | **5x** | **3** |
