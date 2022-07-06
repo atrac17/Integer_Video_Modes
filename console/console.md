@@ -16,7 +16,7 @@
 [**Sega GameGear**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-game-gear) | 5.3693175 MHz | 59.922 Hz | 160x144 | 342x262 |
 [**Sega Saturn**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sega-saturn) | 7.15909 MHz (lo-res)<br><br><br>14.31818 MHz (hi-res) | 59.826 Hz | 320x224 / 240<br>352x224 / 240<br><br>640x448i / 480i<br>704x448i / 480i | 455x263 / 910x263 |
 [**SNK NeoGeo AES**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#neo-geo-advanced-entertainment-system) | 6.041957 MHz | 59.599 Hz | 320x224 | 384x264 |
-[**Sony PlayStation**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sony-playstation) | 5.369318 MHz<br>6.711647 MHz<br>7.670454 MHz<br>10.738636 MHz<br>13.423295 MHz | 59.826 Hz | 256x224<br>320x224<br>384x224<br>512x224<br><br>256x240<br>320x240<br>384x240<br>512x240<br><br>640x480i<br>704x480i | 487.5x263 for 7.670454 MHz |
+[**Sony PlayStation**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/console/console.md#sony-playstation) | 5.369318 MHz (lo-res)<br>6.711647 MHz (lo-res)<br>7.670454 MHz (lo-res)<br><br>10.738636 MHz (hi-res)<br>13.423295 MHz (hi-res) | 59.826 Hz | 256x224<br>320x224<br>384x224<br>512x224<br><br>256x240<br>320x240<br>384x240<br>512x240<br><br>640x480i<br>704x480i | 487.5x263 for 7.670454 MHz |
 
 <br>
 
@@ -447,7 +447,7 @@ To circumvent the horizontal change between games, I recommend using a 352px wid
 
 | Core | Pixel Clock | Refresh Rate |Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-[**psx**] | **5.369318 MHz<br>6.711647 MHz<br>7.670454 MHz<br>10.738636 MHz<br>13.423295 MHz** | **59.826 Hz** | **256x224**<br>**320x224**<br>**368x224**<br>**512x224**<br>**256x240**<br>**320x240**<br>**368x240**<br>**512x240**<br>**640x480i** | **4:3**<br>**10:7**<br>**12:7**<br>**8:7**<br>**56:45**<br>**4:3**<br>**23:18**<br>**8:5**<br>**4:3** | **1280:973**<br>**3200:2429**<br>**920:693**<br>**1024:777**<br>**512:417**<br>**1280:1041**<br>**368:297**<br>**2048:1665**<br>**1280:1041** |
+[**psx**] | **5.369318 MHz (lo-res)<br>6.711647 MHz (lo-res)<br>7.670454 MHz (lo-res)<br><br>10.738636 MHz (hi-res)<br>13.423295 MHz (hi-res)** | **59.826 Hz** | **256x224**<br>**320x224**<br>**384x224**<br>**512x224**<br>**256x240**<br>**320x240**<br>**384x240**<br><br>**512x240**<br>**640x480i**<br>**704x480i** | **4:3**<br>**10:7**<br>**12:7**<br>**8:7**<br>**56:45**<br>**4:3**<br>**23:18**<br>**8:5**<br>**4:3** | **1280:973**<br>**3200:2429**<br>**920:693**<br>**1024:777**<br>**512:417**<br>**1280:1041**<br>**368:297**<br>**2048:1665**<br>**1280:1041** |
 
 ### Video Modes:
 
