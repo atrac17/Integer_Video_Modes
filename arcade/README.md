@@ -72,7 +72,7 @@ Irem M62 hardware has different horizontal resolutions set by jumpers on the act
 
 | Title | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) | Resolution (Total) |
 |:--|:--:|:--:|:--:|:--:|:--:|
-**Pang**<br><br>**Super Pang** | Mitchell Z80 Based | 8.00 MHz | 56.338 Hz | 384x240 | 512x272 |
+**Pang**<br><br>**Super Pang**<br><br>**Block Block** | Mitchell Z80 Based | 8.00 MHz | 56.338 Hz | 384x240 | 512x272 |
 
 <br>
 

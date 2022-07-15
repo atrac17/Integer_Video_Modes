@@ -15,7 +15,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 <br>
 
-## Mitchell Z80 Based<br><br>Pang!<br>Super Pang!
+## Mitchell Z80 Based<br><br>Pang!<br>Super Pang!<br>Block Block
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
