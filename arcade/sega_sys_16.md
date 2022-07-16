@@ -11,7 +11,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Hardware | Pixel Clock | Refresh Rate | Resolution (Visible) |
 |:--|:--:|:--:|:--:|:--:|
-[**jts16**]<br>[**jts16b**]<br>[**jts16b3**] | Sega System16A / 16B Based | 6.2937 MHz | 60.284 Hz | 320x224 |
+[**jts16**]<br>[**jts16b**] | Sega System16A / 16B Based | 6.2937 MHz | 60.054 Hz | 320x224 |
 
 <br>
 
@@ -19,7 +19,7 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | Core | Pixel Clock | Refresh Rate | Resolution (Visible) | Pixel Aspect Ratio | Display Aspect Ratio |
 |:--|:--:|:--:|:--:|:--:|:--:|
-[**jts16**]<br>[**jts16b**]<br>[**jts16b3**] | **6.2937 MHz** | **60.284 Hz** | **320x224** | **10:7** | **400:287** |
+[**jts16**]<br>[**jts16b**] | **6.2937 MHz** | **60.054 Hz** | **320x224** | **10:7** | **400:287** |
 
 <br>
 
@@ -27,14 +27,14 @@ Integer scaled modelines based on the information below. The visible resolution 
 
 | CVT-RB Standard NTSC Modelines (HDTV) | Integer | Resolution | Horizontal |
 |:--|:--:|:--:|:--:|
-**`video_mode=1280,48,32,80,896,3,10,13,80038`**    | **4x** | **1280x896**  | **4x** |
-**`video_mode=1600,48,32,80,1120,3,10,19,122228`**  | **5x** | **1600x1120** | **5x** |
-**`video_mode=1920,48,32,80,1344,3,10,26,173416`**  | **6x** | **1920x1344** | **6x** |
+**`video_mode=1280,48,32,80,896,3,10,13,79733`**    | **4x** | **1280x896**  | **4x** |
+**`video_mode=1600,48,32,80,1120,3,10,19,121761`**  | **5x** | **1600x1120** | **5x** |
+**`video_mode=1920,48,32,80,1344,3,10,26,172754`**  | **6x** | **1920x1344** | **6x** |
 
 <br>
 
 | CVT-RB Standard NTSC Modeline (LCD Integer-Step Scaled) | Integer | Resolution | Horizontal | vscale_mode |
 |:--|:--:|:--:|:--:|:--:|
-**`video_mode=1280,48,32,80,1008,3,7,19,90021`** | **4.5x** | **1280x1008** | **4x** | **2** |
+**`video_mode=1280,48,32,80,1008,3,7,19,89678`** | **4.5x** | **1280x1008** | **4x** | **2** |
 
 <br>

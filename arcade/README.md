@@ -98,7 +98,7 @@ Sega System E hardware implementation is shared with Sega Master System, custom 
 |:--|:--:|:--:|:--:|:--:|:--:|
 **Sega System I<br><br> Sega System II** | [**Sega System I<br><br>Sega System II**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_I_II.md) | 5.00 MHz | 60.096 Hz | 256x224 | 320x260 |
 **Sega System E** | [**Sega System E**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_e.md) | 5.37 MHz | 59.930 Hz | 256x192 | 342x262 |
-**Sega System 16** | [**Sega System16A<br><br>Sega System16B**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_16.md) | 6.2937 MHz | 60.284 Hz | 320x224 | 400x261 |
+**Sega System 16** | [**Sega System16A<br><br>Sega System16B**](https://github.com/atrac17/MiSTer_Integer_Modelines/blob/main/arcade/sega_sys_16.md) | 6.2937 MHz | 60.054 Hz | 320x224 | 400x262 |
 
 <br>
 
